@@ -1,8 +1,7 @@
 # Site settings
-baseurl = "https://example.org/"
-languageCode = "en-us"
-title = "Hugo Artists Theme"
-theme = "hugo-artists-theme"
+baseurl = "http://www.rotaractblois.com/"
+languageCode = "fr"
+title = "Rotaract Club de Blois"
 
 [params]
 
@@ -11,8 +10,8 @@ theme = "hugo-artists-theme"
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Your name"
-	description = "Your description"
+	name = "Rotaract Club de Blois"
+	description = "Association de jeune étudiant / actifs !"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -25,7 +24,7 @@ theme = "hugo-artists-theme"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "your@email.com"
+	email = "Rotaractclubdeblois@gmail.com"
 
 
 	# Header an navigation
@@ -34,16 +33,16 @@ theme = "hugo-artists-theme"
 	# Do the same with the logo ('logo.svg').
 	# But keep the original filename!
 	[params.header]
-		title = "Artists Theme"
-		shortBio = "Thinker // Designer // YouTuber"
+		title = "Rotaract Club de Blois"
+		shortBio = "Association Jeunesse"
 
 
 	# About section
 	#
 	# Replace the 'avatar.jpg' under 'static/img' with your own image.
 	[params.about]
-		title = "About me"
-		bio = "**Travis specializes in making things** for human people. Most of the things he makes are [digital interfaces](//travisneilson.com/), but he also puts effort into crafting [next-level beats](//soundcloud.com/travis-neilson) and [YouTube videos](//youtube.com/user/devtipsfordesigners) about making codes happen."
+		title = "About us"
+		bio = "**Le Rotaract Club de Blois** Le Rotaract est un club service parrainé par le Rotary. Cette association regroupe les jeunes de 18 à 30 ans. Le Rotaract se réunit pour mettre en place des actions de solidarités. Sa devise : "
 
 		[[params.about.skills]]
 			name = "Communication"
@@ -85,34 +84,18 @@ theme = "hugo-artists-theme"
 		# 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin'
 		# 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 		[[params.contact.social]]
-			icon = "twitter"
-			link = "//twitter.com/devtipsshow"
-
-		[[params.contact.social]]
-			icon = "dribbble"
-			link = "//dribbble.com/travisneilson"
-
-		[[params.contact.social]]
-			icon = "behance"
-			link = "//www.behance.net/travisneilson"
-
-		[[params.contact.social]]
-			icon = "youtube"
-			link = "//www.youtube.com/DevTipsForDesigners"
-
-		[[params.contact.social]]
-			icon = "linkedin"
-			link = "//www.linkedin.com/in/travisneilson"
+			icon = "facebook"
+			link = "https://www.facebook.com/RotaractBloisOfficiel/"
 
 
 	[params.form]
-		title = "Let's work together"
+		title = "Nous rejoindre !"
 		# Form fields
-		name = "Your Name"
-		email = "Your Email"
-		message = "Tell me about your project"
-		buttonText = "Send"
+		name = "Nom"
+		email = "Email"
+		message = "Message"
+		buttonText = "Envoyer"
 
 
 	[params.footer]
-		copyright = "Published under the Unlicense License."
+		copyright = "© 2017 by Rotaract. All rights reserved."

@@ -58,7 +58,7 @@ Adding a new project is very simple. Firstly, you need to define a new project i
 
 ```toml
 # Section title
-title = "Work"
+title = "work"
 
 [[projects]]
     name = "TYPO International Design Talks"
