@@ -29,7 +29,7 @@ Take a look inside the [`exampleSite`](//github.com/digitalcraftsman/hugo-artist
 
 ### Change the hero background
 
-The hero acts as an eye-catcher for your site. So consider to give him a nice background. You just need to replace the [`hero-bg.jpg`](//github.com/digitalcraftsman/hugo-artists-theme/blob/master/static/img/hero-bg.jpg) at [`static/img`](//github.com/digitalcraftsman/hugo-artists-theme/tree/master/static/img) with your own background image. But it's important that you keep the original filename.
+The hero acts as an eye-catcher for your site. So consider to give him a nice background. You just need to replace the [`equipe2017_background.JPG`](//github.com/digitalcraftsman/hugo-artists-theme/blob/master/static/img/equipe2017_background.JPG) at [`static/img`](//github.com/digitalcraftsman/hugo-artists-theme/tree/master/static/img) with your own background image. But it's important that you keep the original filename.
 
 
 ### Add your own logo
@@ -39,7 +39,7 @@ Go to [`static/img`](//github.com/digitalcraftsman/hugo-artists-theme/tree/maste
 
 ### Introduce yourself
 
-In the next step, replace the image of Travis in the about section with one of yours. Therefore search the [`avatar.jpg`](//github.com/digitalcraftsman/hugo-artists-theme/blob/master/static/img/avatar.jpg) under [`static/img`](//github.com/digitalcraftsman/hugo-artists-theme/tree/master/static/img). But keep the original filename here too.
+In the next step, replace the image of Travis in the about section with one of yours. Therefore search the [`logo_rotaract.png`](//github.com/digitalcraftsman/hugo-artists-theme/blob/master/static/img/logo_rotaract.png) under [`static/img`](//github.com/digitalcraftsman/hugo-artists-theme/tree/master/static/img). But keep the original filename here too.
 
 Furthermore, you can show your visitors your skills and capabilities. Add as many skills as you like by copying the snippet below:
 
