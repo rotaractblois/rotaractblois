@@ -41,7 +41,7 @@ title = "Rotaract Club de Blois"
 	#
 	# Replace the 'logo_rotaract.png' under 'static/img' with your own image.
 	[params.about]
-		title = "About us"
+		title = "L'équipe"
 		bio = "**Le Rotaract Club de Blois** Le Rotaract est un club service parrainé par le Rotary. Cette association regroupe les jeunes de 18 à 30 ans. Le Rotaract se réunit pour mettre en place des actions de solidarités. Sa devise : "
 
 #       [[params.about.skills]]
