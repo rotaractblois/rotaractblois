@@ -8,11 +8,5 @@ features = ["about section with skill rating", "stylish portfolio with slider", 
 min_version = 0.20
 
 [author]
-  name = "digitalcraftsman"
+  name = "mataking"
   homepage = "//github.com/digitalcraftsman"
-
-# If porting an existing theme
-[original]
-  name = "Travis Neilson"
-  homepage = "//travisneilson.com/"
-  repo = "//github.com/DevTips/Artists-Theme"
