@@ -5,8 +5,7 @@ $(function () {
     partenaireStuff();
     trombinoscopeStuff();
 
-    $("header h1").fitText(1, {minFontSize: '20px', maxFontSize: '72px'});
-    $(".biglink").fitText(1.5);
+    $(".biglink").fitText(2);
 
     $('textarea').autosize();
 });
@@ -454,4 +453,20 @@ function trombinoscopeStuff() {
             adjust();
         });
     };
+
+    //Call button to go at top of the page
+    var btn = $('#button');
+
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+    });
+
+    btn.on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop: 0}, '300');
+    });
 }(jQuery || $)); // jQuery or jQuery-like library, such as Zepto
