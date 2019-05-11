@@ -16,3 +16,7 @@ title = "actions"
 [[projects]]
     name = "La marche contre la Polio"
     folder = "marche_contre_la_polio"
+
+[[projects]]
+    name = "Mon Sang pour les Autres"
+    folder = "mon_sang_pour_les_autres"
