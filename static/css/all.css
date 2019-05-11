@@ -761,7 +761,10 @@ fieldset {
 }
 
 .alt-section-nav {
-    padding-bottom: 100px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    position: center;
 }
 
 .alt-section {
@@ -793,19 +796,19 @@ header {
     /*background-image: url(../img/logo.svg), url(../img/equipe2017_background.JPG);*/
 }
 
-header .logo {
-    height: 50px;
-    width: 50px;
-    float: right;
-    margin: 10px 0 0 30px;
-}
+/*header .logo {*/
+/*    height: 50px;*/
+/*    width: 50px;*/
+/*    float: right;*/
+/*    margin: 10px 0 0 30px;*/
+/*}*/
 
-header .logo path {
-    fill: rgba(0, 0, 0, 0.4);
-}
+/*header .logo path {*/
+/*    fill: rgba(0, 0, 0, 0.4);*/
+/*}*/
 
 header nav {
-    float: right;
+    position: center;
     padding: 30px 30px 0 0;
 }
 
@@ -852,24 +855,24 @@ header nav a:hover {
 /*    line-height: 1;*/
 /*}*/
 
-@media (max-width: 640px) {
-    header {
-        background-position: 50% 20px, 50% 50%;
-    }
+/*@media (max-width: 640px) {*/
+/*    header {*/
+/*        background-position: 50% 20px, 50% 50%;*/
+/*    }*/
 
-    header nav {
-        float: none;
-        text-align: center;
-        padding-top: 90px;
-    }
+/*    header nav {*/
+/*        float: none;*/
+/*        text-align: center;*/
+/*        padding-top: 90px;*/
+/*    }*/
 
-    /*header h1 {*/
-    /*    padding-top: 0px;*/
-    /*}*/
-}
+/*    !*header h1 {*!*/
+/*    !*    padding-top: 0px;*!*/
+/*    !*}*!*/
+/*}*/
 
 footer {
-    background-image: url(../img/logo.svg), url(../img/equipe2017_background.JPG);
+    background-image: url(../img/logo.svg), url(../img/tropical-palm-leaves-vibrant-bold-260nw-1047404287.jpg);
 }
 
 footer .lockup {
@@ -905,7 +908,7 @@ footer .lockup .content-wrap a:hover {
 }
 
 .face-lockup {
-    max-width: 780px;
+    max-width: 16%;
     display: -webkit-box;
     display: -moz-box;
     display: -webkit-flex;
@@ -915,20 +918,12 @@ footer .lockup .content-wrap a:hover {
     margin: 0 auto;
     -webkit-box-align: center;
     -moz-box-align: center;
-    box-align: center;
     -webkit-align-items: center;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    -o-align-items: center;
     align-items: center;
     -ms-flex-align: center;
     -webkit-box-pack: justify;
     -moz-box-pack: justify;
-    box-pack: justify;
     -webkit-justify-content: space-between;
-    -moz-justify-content: space-between;
-    -ms-justify-content: space-between;
-    -o-justify-content: space-between;
     justify-content: space-between;
     -ms-flex-pack: justify;
 }
@@ -942,10 +937,7 @@ footer .lockup .content-wrap a:hover {
     width: 300px;
     -webkit-box-ordinal-group: 3;
     -moz-box-ordinal-group: 3;
-    box-ordinal-group: 3;
-    -webkit-order: 3;
-    -moz-order: 3;
-    order: 3;
+    /*order: 3;*/
     -ms-flex-order: 3;
 }
 
