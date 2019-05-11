@@ -138,29 +138,3 @@ In order to see your site in action, run Hugo's built-in local server.
     $ hugo server
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
-
-
-## Contributing
-
-Did you found a bug or got an idea for a new feature? Feel free to use the [issue tracker](//github.com/digitalcraftsman/hugo-artists-theme/issues) to let me know. Or make directly a [pull request](//github.com/digitalcraftsman/hugo-artists-theme/pulls).
-
-
-## License
-
-This theme is released under the Unlincense License. For more information read the [License](//github.com/digitalcraftsman/hugo-artists-theme/blob/master/LICENSE).
-
-
-## Annotations
-
-A big thank you to these creators for contributing sample projects for the "actions" section:
-
-- [Micael Butial](//www.behance.net/gallery/14751131/-TYPO-International-Design-Talks)
-- [Petras Nargėla](//www.behance.net/gallery/16750837/Free-80-Crispy-Icons-in-PSD-AI-SVG-Webfont)
-- [Sergey Valiukh](//www.behance.net/gallery/13745729/Timeline-Page)
-- [Ayoub Elred](//www.behance.net/gallery/15812143/Flat-Mobile-UIUX-Concept-download)
-- [Anton Skvortsov](//www.behance.net/gallery/16483395/City-IN-website-concept)
-- [Nick Zoutendijk](//www.behance.net/gallery/13870569/Stripes-Co-Free-icon-Set)
-- [Jonathan Quintin](//www.behance.net/gallery/12748107/Weather-Dashboard-Global-Outlook-UIUX)
-- [Jieyu Xiong](//www.behance.net/gallery/15063575/Fresh-It-Up-App-Design)
-
-Also thanks to [Steve Francia](//github.com/spf13) for creating [Hugo](//gohugo.io) and the awesome community around the project.
