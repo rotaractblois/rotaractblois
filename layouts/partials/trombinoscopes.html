@@ -1,0 +1,48 @@
+{{ "<!-- trombinoscopes section -->" | safeHTML }}
+<section class="section-trombinoscopes">
+    {{ with .Site.Data.trombinoscopes.title }}<h3 id="trombinoscopes">{{ . }}</h3>{{ end }}
+
+    <div class="trombinoscopes-mobile-nav">
+        {{ range $i, $e := .Site.Data.trombinoscopes.list }}
+        {{ if eq $i 0 }}
+        <span class="active-trombinoscope"></span>
+        {{ else }}
+        <span></span>
+        {{ end }}
+        {{ end }}
+    </div>
+
+    <div class="trombinoscopes-belt">
+        {{ range $i, $e := .Site.Data.trombinoscopes.list }}
+        <div class="trombinoscope-unit {{ if eq $i 0 }}active-trombinoscope{{ end }}">   <!-- CONDITIONAL CSS CLASS -->
+            <figure class="trombinoscope-face">
+                <img alt="trombinoscope-face" src="img/trombinoscopes/{{ .avatar }}">
+                <figcaption>
+                    <strong class="trombinoscope-name">{{ .name }}</strong>
+                    <em class="trombinoscope-title">{{ .title }}</em>
+                </figcaption>
+            </figure>
+            <div class="trombinoscope-content">
+                <div class="trombinoscope-quote-mark">{{ partial "icons/icon-quote-mark.html" . }}</div>
+                {{ .quote | markdownify }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+
+    <div class="trombinoscope-controls">
+        <div class="trombinoscope-control-next">{{ partial "icons/icon-next.html" . }}</div>
+        <div class="trombinoscope-control-prev">{{ partial "icons/icon-prev.html" . }}</div>
+    </div>
+
+    <div class="trombinoscopes-logos">
+        {{ range $i, $e := .Site.Data.trombinoscopes.list }}
+        {{ if eq $i 0 }}
+        <img align="{{ .logo }}" class="trombinoscope-logo active-trombinoscope" src="img/trombinoscopes/{{ .logo }}">
+        {{ else }}
+        <img align="{{ .logo }}" class="trombinoscope-logo" src="img/trombinoscopes/{{ .logo }}">
+        {{ end }}
+        {{ end }}
+    </div>
+
+</section>

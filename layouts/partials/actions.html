@@ -1,0 +1,40 @@
+<section class="alt-section section-actions">
+    {{ with .Site.Data.actions.title }}<h3 id="actions">{{ . }}</h3>{{ end }}
+
+    {{ range .Site.Data.actions.projects }}
+    <input class="trigger" id="{{ .folder }}" name="trigger" type="radio"/>
+    {{ end }}
+    <input class="return" id="return" name="trigger" type="radio"/>
+    <div class="actions-belt">
+        <div class="thumb-wrap">
+            <div class="thumb-container">
+                {{ range .Site.Data.actions.projects }}
+                <label for="{{ .folder }}">
+                    <div class="thumb-unit" data-folder="{{ .folder }}">
+                        <img alt="{{ .name }}" src="img/actions/{{.folder}}/thumb.jpg"/>
+                    </div>
+                    <div class="thumb-overlay">
+                        <strong>{{ .name }}</strong>
+                    </div>
+                </label>
+                {{ end }}
+            </div>
+        </div>
+        <div class="actions-wrap">
+            <div class="actions-container">
+                <label for="return">
+                    <div class="actions-return">{{ partial "icons/icon-back.html" . }}</div>
+                </label>
+                <h4 class="project-title"></h4>
+                <div class="project-load"></div>
+                <noscript>
+                    {{ range .Site.Data.actions.projects }}
+                    <div class="noscript" id="content-{{ .folder }}">
+                        <h4 class="project-title">{{ .name }}</h4>
+                    </div>
+                    {{ end }}
+                </noscript>
+            </div>
+        </div>
+    </div>
+</section>

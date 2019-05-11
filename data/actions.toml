@@ -1,0 +1,27 @@
+# Section title
+title = "actions"
+
+[[projects]]
+    name = "Les Rendez-vous du Chocolat"
+    folder = "rdv_chocolat"
+
+[[projects]]
+    name = "Les Ventes Privées de Noël"
+    folder = "ventes_privees_noel"
+
+[[projects]]
+    name = "Hors'Aract"
+    folder = "hors_aract"
+
+[[projects]]
+    name = "La marche contre la Polio"
+    folder = "marche_contre_la_polio"
+
+[[projects]]
+    name = "Mon Sang pour les Autres"
+    folder = "mon_sang_pour_les_autres"
+
+[[projects]]
+    name = "Fête des Plantes"
+    folder = "fete_des_plantes"
+

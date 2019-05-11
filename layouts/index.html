@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body>
+
+{{ partial "header.html" . }}
+{{ partial "before_about.html" . }}
+{{ partial "about.html" . }}
+{{ partial "trombinoscopes.html" . }}
+{{ partial "actions.html" . }}
+{{ partial "partenaires.html" . }}
+{{ partial "contact.html" . }}
+{{ partial "form.html" . }}
+{{ partial "footer.html" . }}
+
+<a id="button"></a>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/functions.js"></script>
+</body>
+</html>
