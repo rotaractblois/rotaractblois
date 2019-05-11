@@ -1073,7 +1073,7 @@ footer .lockup .content-wrap a:hover {
     }
 }
 
-.section-work {
+.section-actions {
     overflow-x: hidden;
 }
 
@@ -1083,19 +1083,19 @@ footer .lockup .content-wrap a:hover {
 }
 
 /* CSS concernant la rubrique nos Projets */
-#proj-1:checked ~ .work-belt .work-wrap .work-container noscript #content-proj-1 {
+#proj-1:checked ~ .actions-belt .actions-wrap .actions-container noscript #content-proj-1 {
     display: block;
 }
 
-#proj-2:checked ~ .work-belt .work-wrap .work-container noscript #content-proj-2 {
+#proj-2:checked ~ .actions-belt .actions-wrap .actions-container noscript #content-proj-2 {
     display: block;
 }
 
-#proj-3:checked ~ .work-belt .work-wrap .work-container noscript #content-proj-3 {
+#proj-3:checked ~ .actions-belt .actions-wrap .actions-container noscript #content-proj-3 {
     display: block;
 }
 
-#proj-4:checked ~ .work-belt .work-wrap .work-container noscript #content-proj-4 {
+#proj-4:checked ~ .actions-belt .actions-wrap .actions-container noscript #content-proj-4 {
     display: block;
 }
 
@@ -1107,16 +1107,16 @@ footer .lockup .content-wrap a:hover {
     display: none;
 }
 
-.trigger:checked ~ .work-belt {
+.trigger:checked ~ .actions-belt {
     left: -100%;
 }
 
-.trigger:checked ~ .work-belt .work-wrap .work-container {
+.trigger:checked ~ .actions-belt .actions-wrap .actions-container {
     display: block;
 }
 
 /* End of gross / hackey CSS */
-.work-belt {
+.actions-belt {
     width: 200%;
     position: relative;
     left: 0%;
@@ -1125,7 +1125,7 @@ footer .lockup .content-wrap a:hover {
     transition: all, 800ms;
 }
 
-.work-belt.slided {
+.actions-belt.slided {
     -webkit-transform: translate3d(-50%, 0, 0);
     -moz-transform: translate3d(-50%, 0, 0);
     -ms-transform: translate3d(-50%, 0, 0);
@@ -1133,7 +1133,7 @@ footer .lockup .content-wrap a:hover {
     transform: translate3d(-50%, 0, 0);
 }
 
-.thumb-wrap, .work-wrap {
+.thumb-wrap, .actions-wrap {
     width: 50%;
     float: left;
 }
@@ -1219,7 +1219,7 @@ footer .lockup .content-wrap a:hover {
     z-index: 2;
 }
 
-.work-container {
+.actions-container {
     max-width: 600px;
     margin: 0px auto;
     padding: 0 15px;
@@ -1230,7 +1230,7 @@ footer .lockup .content-wrap a:hover {
     display: none;
 }
 
-.work-container h4, .work-container noscript h4 {
+.actions-container h4, .actions-container noscript h4 {
     color: #c99065;
     font-weight: 300;
     text-transform: uppercase;
@@ -1239,12 +1239,12 @@ footer .lockup .content-wrap a:hover {
     margin: 0 0 20px;
 }
 
-.work-container img {
+.actions-container img {
     max-width: 100%;
     margin-bottom: 20px;
 }
 
-.work-container .work-return {
+.actions-container .actions-return {
     height: 40px;
     width: 40px;
     cursor: pointer;
@@ -1254,20 +1254,20 @@ footer .lockup .content-wrap a:hover {
     left: -60px;
 }
 
-.work-container .work-return path {
+.actions-container .actions-return path {
     fill: rgba(0, 0, 0, 0.4);
 }
 
-.work-container .work-return:hover {
+.actions-container .actions-return:hover {
     opacity: 1;
 }
 
 @media (max-width: 740px) {
-    .work-container .work-return {
+    .actions-container .actions-return {
         left: 0px;
     }
 
-    .work-container h4 {
+    .actions-container h4 {
         margin-left: 60px;
     }
 }

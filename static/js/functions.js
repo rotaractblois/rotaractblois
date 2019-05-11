@@ -1,7 +1,7 @@
 $(function () {
     smoothScroll(300);
-    workBelt();
-    workLoad();
+    actionsBelt();
+    actionsLoad();
     clientStuff();
 
     $("header h1").fitText(1, {minFontSize: '20px', maxFontSize: '72px'});
@@ -26,25 +26,25 @@ function smoothScroll(duration) {
 }
 
 
-function workBelt() {
+function actionsBelt() {
 
     $(".trigger").remove();
     $(".return").remove();
 
     $('.thumb-container label').click(function () {
-        $('.work-belt').addClass("slided");
-        $('.work-container').show();
+        $('.actions-belt').addClass("slided");
+        $('.actions-container').show();
     });
 
-    $('.work-return').click(function () {
-        $('.work-belt').removeClass("slided");
-        $('.work-container').hide(800);
+    $('.actions-return').click(function () {
+        $('.actions-belt').removeClass("slided");
+        $('.actions-container').hide(800);
     });
 
 }
 
 
-function workLoad() {
+function actionsLoad() {
 
     $.ajaxSetup({cache: true});
 
@@ -53,7 +53,7 @@ function workLoad() {
             newTitle = $this.find('strong').text(),
             newfolder = $this.find('.thumb-unit').data('folder'),
             spinner = '<div class="loader">Loading...</div>',
-            newHTML = 'work/' + newfolder;
+            newHTML = 'actions/' + newfolder;
 
         $('.project-load').html(spinner).load(newHTML);
         $('.project-title').text(newTitle);
