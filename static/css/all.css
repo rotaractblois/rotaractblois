@@ -731,7 +731,7 @@ body {
     background: #fff;
     font-size: 14px;
     line-height: 1.6;
-    /*font-family: "Open Sans" sans-serif;*/
+    font-family: "Open Sans";
     color: #666;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
@@ -758,6 +758,10 @@ fieldset {
     h3 {
         padding: 50px 0 50px;
     }
+}
+
+.alt-section-nav {
+    padding-bottom: 100px;
 }
 
 .alt-section {
@@ -787,7 +791,6 @@ header {
     /*border: 5px #d7ae5c inset;*/
     /*background-position: 10px 10px, 20% 40%;*/
     /*background-image: url(../img/logo.svg), url(../img/equipe2017_background.JPG);*/
-
 }
 
 header .logo {
@@ -1279,6 +1282,10 @@ footer .lockup .content-wrap a:hover {
     .actions-container h4 {
         margin-left: 60px;
     }
+}
+
+.section-about {
+    position: relative;
 }
 
 .section-trombinoscopes {
@@ -1894,4 +1901,25 @@ form label span {
 
 .form-success p {
     font-size: 18px;
+}
+
+.section-before-about {
+    width: auto;
+}
+
+/* Container holding the image and the text */
+.section-before-about .container {
+    position: relative;
+}
+
+/* Bottom right text */
+.section-before-about .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100px;
 }
