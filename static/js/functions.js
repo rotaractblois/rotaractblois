@@ -3,6 +3,7 @@ $(function () {
     actionsBelt();
     actionsLoad();
     partenaireStuff();
+    trombinoscopeStuff();
 
     $("header h1").fitText(1, {minFontSize: '20px', maxFontSize: '72px'});
     $(".biglink").fitText(1.5);
@@ -107,6 +108,50 @@ function partenaireStuff() {
 
 }
 
+function trombinoscopeStuff() {
+
+    $('.trombinoscope-logo, .trombinoscopes-mobile-nav span').click(function () {
+        var $this = $(this),
+            $siblings = $this.parent().children(),
+            position = $siblings.index($this);
+
+        $('.trombinoscope-unit').removeClass('active-trombinoscope').eq(position).addClass('active-trombinoscope');
+        $siblings.removeClass('active-trombinoscope');
+        $this.addClass('active-trombinoscope');
+    });
+
+
+    $('.trombinoscope-control-next, .trombinoscope-control-prev').click(function () {
+
+        var $this = $(this),
+            curActiveClient = $('.trombinoscopes-belt').find('.active-trombinoscope'),
+            position = $('.trombinoscopes-belt').children().index(curActiveClient),
+            trombinoscopeNum = $('.trombinoscope-unit').length;
+
+        if ($this.hasClass('trombinoscope-control-next')) {
+
+            if (position < trombinoscopeNum - 1) {
+                $('.active-trombinoscope').removeClass('active-trombinoscope').next().addClass('active-trombinoscope');
+            } else {
+                $('.trombinoscope-unit').removeClass('active-trombinoscope').first().addClass('active-trombinoscope');
+                $('.trombinoscope-logo').removeClass('active-trombinoscope').first().addClass('active-trombinoscope');
+            }
+
+        } else {
+
+            if (position === 0) {
+                $('.trombinoscope-unit').removeClass('active-trombinoscope').last().addClass('active-trombinoscope');
+                $('.trombinoscope-logo').removeClass('active-trombinoscope').last().addClass('active-trombinoscope');
+            } else {
+                $('.active-trombinoscope').removeClass('active-trombinoscope').prev().addClass('active-trombinoscope');
+            }
+
+        }
+
+
+    });
+
+}
 
 (function ($) {
 
@@ -142,11 +187,6 @@ function partenaireStuff() {
 })(jQuery);
 
 
-/*!
-	Autosize 1.18.12
-	license: MIT
-	http://www.jacklmoore.com/autosize
-*/
 (function ($) {
     var
         defaults = {

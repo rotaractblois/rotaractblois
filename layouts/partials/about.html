@@ -1,5 +1,5 @@
 {{ "<!-- About section -->" | safeHTML }}
-<section>
+<section class="alt-section">
     {{ with .Site.Params.about.title }}<h3 id="about-us">{{ . }}</h3>{{ end }}
 
     <div class="face-lockup">
@@ -24,18 +24,18 @@
     </div>
     {{ end }}
 
-    {{ with .Site.Params.about.skills }}
-    <div class="skill-lockup">
-        {{ range . }}
-        <div class="skill-unit">
-            <div class="skill-label">{{ .name }}</div>
-            <div class="skill-icons skill-{{ .value }}">
-                {{ range (seq 10) }}
-                <span></span>
-                {{ end }}
-            </div>
-        </div>
-        {{ end }}
-    </div>
-    {{ end }}
+    <!--    {{ with .Site.Params.about.skills }}-->
+    <!--    <div class="skill-lockup">-->
+    <!--        {{ range . }}-->
+    <!--        <div class="skill-unit">-->
+    <!--            <div class="skill-label">{{ .name }}</div>-->
+    <!--            <div class="skill-icons skill-{{ .value }}">-->
+    <!--                {{ range (seq 10) }}-->
+    <!--                <span></span>-->
+    <!--                {{ end }}-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        {{ end }}-->
+    <!--    </div>-->
+    <!--    {{ end }}-->
 </section>

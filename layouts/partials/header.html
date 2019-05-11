@@ -1,14 +1,12 @@
 {{ "<!-- Header section -->" | safeHTML }}
-<header id="header">
-    <nav>
-        {{ with .Site.Params.about.title }}<a href="#about-us">{{ . }}</a>{{ end }}
-        {{ with .Site.Data.actions.title }}<a href="#actions">{{ . }}</a>{{ end }}
-        {{ with .Site.Data.partenaires.title }}<a href="#partenaires">{{ . }}</a>{{ end }}
-        {{ with .Site.Params.contact.title }}<a href="#contact">{{ . }}</a>{{ end }}
-    </nav>
-
-    {{ with .Site.Params.header.title }}<h1><span>{{ . }}</span></h1>{{ end }}
-    {{ with .Site.Params.header.shortBio }}<p class="kicker">{{ . }}</p>{{ end }}
-    {{ with .Site.Params.header.devise }}<p class="subkicker">{{ . }}</p>{{ end }}
-
-</header>
+<section class="alt-section">
+    <header id="header">
+        <nav>
+            <!--        {{ with .Site.Params.about.title }}<a href="#about-us">{{ . }}</a>{{ end }}-->
+            {{ with .Site.Data.trombinoscopes.title }}<a href="#trombinoscopes">{{ . }}</a>{{ end }}
+            {{ with .Site.Data.actions.title }}<a href="#actions">{{ . }}</a>{{ end }}
+            {{ with .Site.Data.partenaires.title }}<a href="#partenaires">{{ . }}</a>{{ end }}
+            {{ with .Site.Params.contact.title }}<a href="#contact">{{ . }}</a>{{ end }}
+        </nav>
+    </header>
+</section>

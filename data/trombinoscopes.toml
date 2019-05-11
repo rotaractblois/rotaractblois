@@ -1,0 +1,58 @@
+# Section title
+title = "trombinoscope"
+
+[[list]]
+    avatar = "marnay_kevin/icone.png"
+    name   = "Kévin Marnay"
+    title  = "Président"
+    quote  = "segsgs"
+    logo   = "marnay_kevin/icone.png"
+
+[[list]]
+    avatar = "ferte_appoline/icone.png"
+    name   = "Appoline de La Ferté"
+    title  = ""
+    quote  = ""
+    logo   = "ferte_appoline/icone.png"
+
+[[list]]
+    avatar = "ferte_blanche/icone.png"
+    name   = "Blanche de La Ferté"
+    title  = ""
+    quote  = ""
+    logo   = "ferte_blanche/icone.png"
+
+[[list]]
+    avatar = "ferte_enguerrand/icone.png"
+    name   = "Enguerrand de La Ferté"
+    title  = ""
+    quote  = ""
+    logo   = "ferte_enguerrand/icone.png"
+
+[[list]]
+    avatar = "forges_gregoire/icone.png"
+    name   = "Grégoire Forges"
+    title  = ""
+    quote  = ""
+    logo   = "forges_gregoire/icone.png"
+
+[[list]]
+    avatar = "lasnier_emilie/icone.png"
+    name   = "émilie Lasnier"
+    title  = ""
+    quote  = ""
+    logo   = "lasnier_emilie/icone.png"
+
+[[list]]
+    avatar = "mob_ines/icone.png"
+    name   = "Inès"
+    title  = ""
+    quote  = ""
+    logo   = "mob_ines/icone.png"
+
+[[list]]
+    avatar = "poirrier_clement/icone.png"
+    name   = "Clément Poirrier"
+    title  = ""
+    quote  = ""
+    logo   = "poirrier_clement/icone.png"
