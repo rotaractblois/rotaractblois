@@ -20,3 +20,8 @@ title = "actions"
 [[projects]]
     name = "Mon Sang pour les Autres"
     folder = "mon_sang_pour_les_autres"
+
+[[projects]]
+    name = "Fête des Plantes"
+    folder = "fete_des_plantes"
+
