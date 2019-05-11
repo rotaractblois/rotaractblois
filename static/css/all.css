@@ -769,7 +769,7 @@ fieldset {
 }
 
 h3, header nav a, header .kicker, footer .lockup .content-wrap a {
-    font-size: 14px;
+    /*font-size: 14px;*/
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -782,15 +782,17 @@ header, footer {
 }
 
 header {
-    background-position: 10px 10px, 20% 40%;
+    border-start-end-radius: 100px;
+    border: 5px #d7ae5c inset;
+    /*background-position: 10px 10px, 20% 40%;*/
     background-image: url(../img/logo.svg), url(../img/equipe2017_background.JPG);
-    padding-bottom: 125px;
+
 }
 
 header .logo {
     height: 50px;
     width: 50px;
-    float: left;
+    float: right;
     margin: 10px 0 0 30px;
 }
 
@@ -804,6 +806,7 @@ header nav {
 }
 
 header nav a {
+    font-size: 20px;
     display: inline-block;
     margin-left: 20px;
     color: rgba(0, 0, 0, 0.7);
@@ -822,19 +825,26 @@ header h1 {
     letter-spacing: 0.05em;
     margin-bottom: 20px;
     clear: both;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 header h1 span {
     display: inline-block;
     padding: 0.2em 0.5em;
-    border: white solid 10px;
+    /*border: white solid 10px;*/
 }
 
 header .kicker {
     text-align: center;
     letter-spacing: 0.05em;
-    color: white;
+    color: black;
+    line-height: 1;
+}
+
+header .subkicker {
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: black;
     line-height: 1;
 }
 
@@ -847,6 +857,10 @@ header .kicker {
         float: none;
         text-align: center;
         padding-top: 90px;
+    }
+
+    header title {
+
     }
 
     header h1 {
@@ -894,7 +908,6 @@ footer .lockup .content-wrap a:hover {
     max-width: 780px;
     display: -webkit-box;
     display: -moz-box;
-    display: box;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
@@ -1196,7 +1209,6 @@ footer .lockup .content-wrap a:hover {
     -ms-flex-pack: center;
     display: -webkit-box;
     display: -moz-box;
-    display: box;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
@@ -1292,7 +1304,6 @@ footer .lockup .content-wrap a:hover {
 .partenaires-belt .partenaire-unit.active-partenaire {
     display: -webkit-box;
     display: -moz-box;
-    display: box;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
@@ -1336,7 +1347,6 @@ footer .lockup .content-wrap a:hover {
     margin: 0px auto 100px;
     display: -webkit-box;
     display: -moz-box;
-    display: box;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
@@ -1499,7 +1509,6 @@ footer .lockup .content-wrap a:hover {
     margin: 0px auto 50px;
     display: -webkit-box;
     display: -moz-box;
-    display: box;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
