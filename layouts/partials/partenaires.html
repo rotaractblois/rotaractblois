@@ -1,0 +1,48 @@
+{{ "<!-- partenaires section -->" | safeHTML }}
+<section class="section-partenaires">
+    {{ with .Site.Data.partenaires.title }}<h3 id="partenaires">{{ . }}</h3>{{ end }}
+
+    <div class="partenaires-mobile-nav">
+        {{ range $i, $e := .Site.Data.partenaires.list }}
+        {{ if eq $i 0 }}
+        <span class="active-partenaire"></span>
+        {{ else }}
+        <span></span>
+        {{ end }}
+        {{ end }}
+    </div>
+
+    <div class="partenaires-belt">
+        {{ range $i, $e := .Site.Data.partenaires.list }}
+        <div class="partenaire-unit {{ if eq $i 0 }}active-partenaire{{ end }}">   <!-- CONDITIONAL CSS CLASS -->
+            <figure class="partenaire-face">
+                <img alt="partenaire-face" src="img/partenaires/{{ .avatar }}">
+                <figcaption>
+                    <strong class="partenaire-name">{{ .name }}</strong>
+                    <em class="partenaire-title">{{ .title }}</em>
+                </figcaption>
+            </figure>
+            <div class="partenaire-content">
+                <div class="partenaire-quote-mark">{{ partial "icons/icon-quote-mark.html" . }}</div>
+                {{ .quote | markdownify }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+
+    <div class="partenaire-controls">
+        <div class="partenaire-control-next">{{ partial "icons/icon-next.html" . }}</div>
+        <div class="partenaire-control-prev">{{ partial "icons/icon-prev.html" . }}</div>
+    </div>
+
+    <div class="partenaires-logos">
+        {{ range $i, $e := .Site.Data.partenaires.list }}
+        {{ if eq $i 0 }}
+        <img align="{{ .logo }}" class="partenaire-logo active-partenaire" src="img/partenaires/{{ .logo }}">
+        {{ else }}
+        <img align="{{ .logo }}" class="partenaire-logo" src="img/partenaires/{{ .logo }}">
+        {{ end }}
+        {{ end }}
+    </div>
+
+</section>

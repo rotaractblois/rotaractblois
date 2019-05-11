@@ -2,7 +2,7 @@ $(function () {
     smoothScroll(300);
     actionsBelt();
     actionsLoad();
-    clientStuff();
+    partenaireStuff();
 
     $("header h1").fitText(1, {minFontSize: '20px', maxFontSize: '72px'});
     $(".biglink").fitText(1.5);
@@ -62,42 +62,42 @@ function actionsLoad() {
 }
 
 
-function clientStuff() {
+function partenaireStuff() {
 
-    $('.client-logo, .clients-mobile-nav span').click(function () {
+    $('.partenaire-logo, .partenaires-mobile-nav span').click(function () {
         var $this = $(this),
             $siblings = $this.parent().children(),
             position = $siblings.index($this);
 
-        $('.client-unit').removeClass('active-client').eq(position).addClass('active-client');
-        $siblings.removeClass('active-client');
-        $this.addClass('active-client');
+        $('.partenaire-unit').removeClass('active-partenaire').eq(position).addClass('active-partenaire');
+        $siblings.removeClass('active-partenaire');
+        $this.addClass('active-partenaire');
     });
 
 
-    $('.client-control-next, .client-control-prev').click(function () {
+    $('.partenaire-control-next, .partenaire-control-prev').click(function () {
 
         var $this = $(this),
-            curActiveClient = $('.clients-belt').find('.active-client'),
-            position = $('.clients-belt').children().index(curActiveClient),
-            clientNum = $('.client-unit').length;
+            curActiveClient = $('.partenaires-belt').find('.active-partenaire'),
+            position = $('.partenaires-belt').children().index(curActiveClient),
+            partenaireNum = $('.partenaire-unit').length;
 
-        if ($this.hasClass('client-control-next')) {
+        if ($this.hasClass('partenaire-control-next')) {
 
-            if (position < clientNum - 1) {
-                $('.active-client').removeClass('active-client').next().addClass('active-client');
+            if (position < partenaireNum - 1) {
+                $('.active-partenaire').removeClass('active-partenaire').next().addClass('active-partenaire');
             } else {
-                $('.client-unit').removeClass('active-client').first().addClass('active-client');
-                $('.client-logo').removeClass('active-client').first().addClass('active-client');
+                $('.partenaire-unit').removeClass('active-partenaire').first().addClass('active-partenaire');
+                $('.partenaire-logo').removeClass('active-partenaire').first().addClass('active-partenaire');
             }
 
         } else {
 
             if (position === 0) {
-                $('.client-unit').removeClass('active-client').last().addClass('active-client');
-                $('.client-logo').removeClass('active-client').last().addClass('active-client');
+                $('.partenaire-unit').removeClass('active-partenaire').last().addClass('active-partenaire');
+                $('.partenaire-logo').removeClass('active-partenaire').last().addClass('active-partenaire');
             } else {
-                $('.active-client').removeClass('active-client').prev().addClass('active-client');
+                $('.active-partenaire').removeClass('active-partenaire').prev().addClass('active-partenaire');
             }
 
         }

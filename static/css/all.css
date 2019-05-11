@@ -214,7 +214,7 @@ td, th {
     overflow: hidden;
 }
 
-.thumb-container label:hover .thumb-overlay, .clients-belt .client-unit.active-client {
+.thumb-container label:hover .thumb-overlay, .partenaires-belt .partenaire-unit.active-partenaire {
     -webkit-animation: animation 1s linear both;
     animation: animation 1s linear both;
     z-index: 2;
@@ -1272,16 +1272,16 @@ footer .lockup .content-wrap a:hover {
     }
 }
 
-.section-clients {
+.section-partenaires {
     position: relative;
 }
 
-.clients-belt {
+.partenaires-belt {
     width: 100%;
     position: relative;
 }
 
-.clients-belt .client-unit {
+.partenaires-belt .partenaire-unit {
     max-width: 750px;
     margin: 50px auto;
     position: relative;
@@ -1289,7 +1289,7 @@ footer .lockup .content-wrap a:hover {
     display: none;
 }
 
-.clients-belt .client-unit.active-client {
+.partenaires-belt .partenaire-unit.active-partenaire {
     display: -webkit-box;
     display: -moz-box;
     display: box;
@@ -1299,30 +1299,30 @@ footer .lockup .content-wrap a:hover {
     display: flex;
 }
 
-.clients-belt .client-unit .client-face {
+.partenaires-belt .partenaire-unit .partenaire-face {
     min-width: 300px;
     text-align: center;
 }
 
-.clients-belt .client-unit .client-face img {
+.partenaires-belt .partenaire-unit .partenaire-face img {
     max-width: 100px;
     border-radius: 50%;
 }
 
-.clients-belt .client-unit .client-face .client-name {
+.partenaires-belt .partenaire-unit .partenaire-face .partenaire-name {
     display: block;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
 }
 
-.clients-belt .client-unit .client-face .client-title {
+.partenaires-belt .partenaire-unit .partenaire-face .partenaire-title {
     font-style: normal;
     font-size: 12px;
     color: #999;
 }
 
-.clients-belt .client-unit .client-content {
+.partenaires-belt .partenaire-unit .partenaire-content {
     font-size: 18px;
     line-height: 36px;
     font-weight: 300;
@@ -1330,7 +1330,7 @@ footer .lockup .content-wrap a:hover {
     position: relative;
 }
 
-.clients-logos {
+.partenaires-logos {
     position: relative;
     max-width: 750px;
     margin: 0px auto 100px;
@@ -1361,7 +1361,7 @@ footer .lockup .content-wrap a:hover {
     -ms-flex-pack: center;
 }
 
-.clients-logos .client-logo {
+.partenaires-logos .partenaire-logo {
     cursor: pointer;
     margin: 0 20px 20px;
     padding-bottom: 20px;
@@ -1369,12 +1369,12 @@ footer .lockup .content-wrap a:hover {
     opacity: 0.5;
 }
 
-.clients-logos .client-logo.active-client {
+.partenaires-logos .partenaire-logo.active-partenaire {
     opacity: 1;
     border-bottom: 4px solid #c99065;
 }
 
-.client-quote-mark {
+.partenaire-quote-mark {
     position: absolute;
     top: -18px;
     left: -15px;
@@ -1384,11 +1384,11 @@ footer .lockup .content-wrap a:hover {
     opacity: 0.3;
 }
 
-.client-quote-mark path {
+.partenaire-quote-mark path {
     fill: #c99065;
 }
 
-.client-controls {
+.partenaire-controls {
     position: absolute;
     top: 0px;
     right: 0px;
@@ -1397,37 +1397,37 @@ footer .lockup .content-wrap a:hover {
     z-index: 2;
 }
 
-.client-controls > div {
+.partenaire-controls > div {
     height: 40px;
     width: 40px;
     margin-top: -20px;
     cursor: pointer;
 }
 
-.client-controls > div path {
+.partenaire-controls > div path {
     fill: #c99065;
 }
 
-.client-controls .client-control-next {
+.partenaire-controls .partenaire-control-next {
     position: absolute;
     top: 50%;
     right: 10px;
 }
 
-.client-controls .client-control-prev {
+.partenaire-controls .partenaire-control-prev {
     position: absolute;
     top: 50%;
     left: 10px;
 }
 
-.clients-mobile-nav {
+.partenaires-mobile-nav {
     text-align: center;
     position: relative;
     z-index: 2;
     display: none;
 }
 
-.clients-mobile-nav span {
+.partenaires-mobile-nav span {
     display: inline-block;
     height: 16px;
     width: 16px;
@@ -1437,12 +1437,12 @@ footer .lockup .content-wrap a:hover {
     cursor: pointer;
 }
 
-.clients-mobile-nav span.active-client {
+.partenaires-mobile-nav span.active-partenaire {
     border-color: #c99065;
 }
 
 @media (max-width: 750px) {
-    .clients-logos {
+    .partenaires-logos {
         -webkit-box-lines: multiple;
         -moz-box-lines: multiple;
         box-lines: multiple;
@@ -1452,40 +1452,40 @@ footer .lockup .content-wrap a:hover {
         flex-wrap: wrap;
     }
 
-    .clients-belt {
+    .partenaires-belt {
         overflow-x: hidden;
     }
 
-    .clients-belt .client-unit.active-client {
+    .partenaires-belt .partenaire-unit.active-partenaire {
         display: block;
         position: relative;
         margin-left: 0px;
         left: auto;
     }
 
-    .clients-belt .client-unit.active-client .client-face {
+    .partenaires-belt .partenaire-unit.active-partenaire .partenaire-face {
         margin-bottom: 30px;
     }
 
-    .clients-belt .client-unit.active-client .client-content {
+    .partenaires-belt .partenaire-unit.active-partenaire .partenaire-content {
         padding: 0px 30px;
         max-width: 400px;
         margin: 0px auto;
     }
 
-    .clients-belt .client-unit.active-client .client-quote-mark {
+    .partenaires-belt .partenaire-unit.active-partenaire .partenaire-quote-mark {
         left: 6px;
     }
 
-    .client-controls {
+    .partenaire-controls {
         display: none;
     }
 
-    .clients-logos {
+    .partenaires-logos {
         display: none;
     }
 
-    .clients-mobile-nav {
+    .partenaires-mobile-nav {
         display: block;
     }
 }

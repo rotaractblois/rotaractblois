@@ -11,6 +11,6 @@ The configuration for the actions section has been moved into it's own [file](ht
 [Show me the diff](https://github.com/digitalcraftsman/hugo-artists-theme/commit/40b1cc22bef2af55f165ad3954ce27f34808348c)
 
 
-Furthermore, the configuration for the client section has been moved into it's own [file](https://github.com/digitalcraftsman/hugo-artists-theme/blob/dev/exampleSite/data/actions.toml) to keep the config file itself smaller. The [setup](https://github.com/digitalcraftsman/hugo-artists-theme/tree/dev#what-your-clients-think) hasn't change much.
+Furthermore, the configuration for the partenaire section has been moved into it's own [file](https://github.com/digitalcraftsman/hugo-artists-theme/blob/dev/exampleSite/data/actions.toml) to keep the config file itself smaller. The [setup](https://github.com/digitalcraftsman/hugo-artists-theme/tree/dev#what-your-partenaires-think) hasn't change much.
 
 [Show me the diff](https://github.com/digitalcraftsman/hugo-artists-theme/commit/68abb5b95d91d61d09c5919956f3b46d09c87072)

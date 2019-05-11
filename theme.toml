@@ -3,8 +3,8 @@ license = "Unlicense License"
 licenselink = "//github.com/digitalcraftsman/hugo-artists-theme/blob/master/LICENSE"
 description = "A one page portfolio for freelancers, programmers and designers."
 homepage = "//github.com/digitalcraftsman/hugo-artists-theme"
-tags = ["portfolio", "showcase", "skills", "clients", "contact form"]
-features = ["about section with skill rating", "stylish portfolio with slider", "carousel for client's quotes", "contact form"]
+tags = ["portfolio", "showcase", "skills", "partenaires", "contact form"]
+features = ["about section with skill rating", "stylish portfolio with slider", "carousel for partenaire's quotes", "contact form"]
 min_version = 0.20
 
 [author]

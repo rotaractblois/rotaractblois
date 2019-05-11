@@ -2,7 +2,7 @@
 
 The Artists Theme is a one page portfolio for freelancers based on the original [Jekyll theme](//github.com/DevTips/Artists-Theme) by [Travis Neilson](//github.com/travisneilson) aka [DevTips](//www.youtube.com/user/DevTipsForDesigners) and his many contributors. It's the result of a longer [video series](//www.youtube.com/watch?v=T6jKLsxbFg4&list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI) made by him that is showing the whole developement process from the first designs to the final Jekyll theme. Consider to subscribe to his [YouTube channel](//www.youtube.com/user/DevTipsForDesigners).
 
-This Hugo theme features several content sections, like an about section  showing the level of your skills, a responsive portfolio with hover effects, a gallery to present your client's opinions and a contact form.
+This Hugo theme features several content sections, like an about section  showing the level of your skills, a responsive portfolio with hover effects, a gallery to present your partenaire's opinions and a contact form.
 
 ![Hugo Artists Theme screenshot](https://raw.githubusercontent.com/digitalcraftsman/hugo-artists-theme/master/images/screenshot.png)
 
@@ -85,13 +85,13 @@ TYPO: International Design Talks is an annual event held in Berlin, London, and 
 The paths to your images are relative to the base url. Store those under [`static/img/actions/<folder>/`](//github.com/digitalcraftsman/hugo-artists-theme/tree/master/static/img/actions). `<folder>` is a the attribute from the [`data/actions.toml`](https://github.com/digitalcraftsman/hugo-artists-theme/blob/dev/exampleSite/data/actions.toml) that you defined for the images above. Create at least a `thumb.jpg` for the preview in the portfolio grid.
 
 
-### What your clients think
+### What your partenaires think
 
-For a new quote, copy the code below into your [`data/clients.toml`](//github.com/digitalcraftsman/hugo-artists-theme/blob/dev/exampleSite/data/clients.toml):
+For a new quote, copy the code below into your [`data/partenaires.toml`](//github.com/digitalcraftsman/hugo-artists-theme/blob/dev/exampleSite/data/partenaires.toml):
 
 ```toml
 # Section title
-title = "Clients"
+title = "partenaires"
 
 [[list]]
     avatar = "face-aaroni.jpg"
@@ -101,7 +101,7 @@ title = "Clients"
     logo   = "logo1.png"
 ```
 
-Store both the client's avatar and logo at [`static/img/clients`](//github.com/digitalcraftsman/hugo-artists-theme/tree/master/static/img/clients)
+Store both the partenaire's avatar and logo at [`static/img/partenaires`](//github.com/digitalcraftsman/hugo-artists-theme/tree/master/static/img/partenaires)
 
 
 ### Add social networks
