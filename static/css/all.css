@@ -1919,6 +1919,24 @@ form label span {
     width: auto;
 }
 
+/* Container holding the image and the text */
+.section-before-about .container {
+    position: relative;
+}
+
+/* Bottom right text */
+.section-before-about .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100px;
+}
+
+
 /* Button go to top */
 #button {
     display: inline-block;
@@ -1992,21 +2010,3 @@ form label span {
     font-style: italic;
     color: #96a2a7;
 }
-
-/*!* Container holding the image and the text *!*/
-/*.section-before-about {*/
-/*    position: relative;*/
-/*}*/
-
-/*!* Bottom right text *!*/
-/*.section-before-about .sContent .text-block {*/
-/*    position: absolute;*/
-/*    bottom: 20px;*/
-/*    right: 20px;*/
-/*    background-color: black;*/
-/*    color: white;*/
-/*    padding-left: 20px;*/
-/*    padding-right: 20px;*/
-/*    border-radius: 100px;*/
-/*}*/
-
