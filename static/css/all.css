@@ -1916,13 +1916,21 @@ form label span {
 }
 
 .section-before-about {
-    resize: both;
+    resize: none;
     overflow: auto;
 }
 
 /* Container holding the image and the text */
 .section-before-about .container {
     position: relative;
+    border-radius: 100px;
+}
+
+/* Container holding the image and the text */
+.section-before-about .container img {
+    max-block-size: 500px;
+    object-fit: contain;
+    border-radius: 200px;
 }
 
 /* Bottom right text */
