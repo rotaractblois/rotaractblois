@@ -24,7 +24,7 @@
             </figure>
             <div class="trombinoscope-content">
                 <div class="trombinoscope-quote-mark">{{ partial "icons/icon-quote-mark.html" . }}</div>
-                {{ .quote | markdownify }}
+                {{ .quote | print | markdownify }}
             </div>
         </div>
         {{ end }}
