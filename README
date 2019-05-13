@@ -1,5 +1,215 @@
+.section-trombinoscopes {
+    position: relative;
+}
 
-Section Partenaires :
-  - les icones sont de tailles : 230 * 150 (format max)
-  - les icones sont au format png
-  - chaque icone doit se trouver dans le bon dossier du partenaire
+.trombinoscopes-belt {
+    width: 100%;
+    position: relative;
+}
+
+.trombinoscopes-belt .trombinoscope-unit {
+    max-width: 750px;
+    margin: 50px auto;
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+
+.trombinoscopes-belt .trombinoscope-unit.active-trombinoscope {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.trombinoscopes-belt .trombinoscope-unit .trombinoscope-face {
+    min-width: 300px;
+    text-align: center;
+}
+
+.trombinoscopes-belt .trombinoscope-unit .trombinoscope-face img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.trombinoscopes-belt .trombinoscope-unit .trombinoscope-face .trombinoscope-name {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.trombinoscopes-belt .trombinoscope-unit .trombinoscope-face .trombinoscope-title {
+    font-style: normal;
+    font-size: 12px;
+    color: #999;
+}
+
+.trombinoscopes-belt .trombinoscope-unit .trombinoscope-content {
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 300;
+    margin-top: -10px;
+    position: relative;
+}
+
+.trombinoscopes-logos {
+    position: relative;
+    max-width: 750px;
+    margin: 0px auto 100px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -moz-box-align: end;
+    box-align: end;
+    -webkit-align-items: flex-end;
+    -moz-align-items: flex-end;
+    -ms-align-items: flex-end;
+    -o-align-items: flex-end;
+    align-items: flex-end;
+    -ms-flex-align: end;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+    -ms-justify-content: space-around;
+    -o-justify-content: space-around;
+    justify-content: space-around;
+    -ms-flex-pack: center;
+}
+
+.trombinoscopes-logos .trombinoscope-logo {
+    cursor: pointer;
+    margin: 0 20px 20px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid transparent;
+    opacity: 0.5;
+}
+
+.trombinoscopes-logos .trombinoscope-logo.active-trombinoscope {
+    opacity: 1;
+    border-bottom: 4px solid #c99065;
+}
+
+.trombinoscope-quote-mark {
+    position: absolute;
+    top: -18px;
+    left: -15px;
+    height: 60px;
+    width: 60px;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.trombinoscope-quote-mark path {
+    fill: #c99065;
+}
+
+.trombinoscope-controls {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+.trombinoscope-controls > div {
+    height: 40px;
+    width: 40px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.trombinoscope-controls > div path {
+    fill: #c99065;
+}
+
+.trombinoscope-controls .trombinoscope-control-next {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+}
+
+.trombinoscope-controls .trombinoscope-control-prev {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+
+.trombinoscopes-mobile-nav {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    display: none;
+}
+
+.trombinoscopes-mobile-nav span {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: solid 2px #e5eaee;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.trombinoscopes-mobile-nav span.active-trombinoscope {
+    border-color: #c99065;
+}
+
+@media (max-width: 750px) {
+    .trombinoscopes-logos {
+        -webkit-box-lines: multiple;
+        -moz-box-lines: multiple;
+        box-lines: multiple;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .trombinoscopes-belt {
+        overflow-x: hidden;
+    }
+
+    .trombinoscopes-belt .trombinoscope-unit.active-trombinoscope {
+        display: block;
+        position: relative;
+        margin-left: 0px;
+        left: auto;
+    }
+
+    .trombinoscopes-belt .trombinoscope-unit.active-trombinoscope .trombinoscope-face {
+        margin-bottom: 30px;
+    }
+
+    .trombinoscopes-belt .trombinoscope-unit.active-trombinoscope .trombinoscope-content {
+        padding: 0px 30px;
+        max-width: 400px;
+        margin: 0px auto;
+    }
+
+    .trombinoscopes-belt .trombinoscope-unit.active-trombinoscope .trombinoscope-quote-mark {
+        left: 6px;
+    }
+
+    .trombinoscope-controls {
+        display: none;
+    }
+
+    .trombinoscopes-logos {
+        display: none;
+    }
+
+    .trombinoscopes-mobile-nav {
+        display: block;
+    }
+}
