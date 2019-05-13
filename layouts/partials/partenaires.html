@@ -24,7 +24,7 @@
             </figure>
             <div class="partenaire-content">
                 <div class="partenaire-quote-mark">{{ partial "icons/icon-quote-mark.html" . }}</div>
-                {{ .quote | markdownify }}
+                {{ .quote | print | markdownify }}
             </div>
         </div>
         {{ end }}

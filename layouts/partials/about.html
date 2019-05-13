@@ -21,7 +21,7 @@
 
     {{ with .Site.Params.about.bio }}
     <div class="blurb">
-        <p>{{ . | markdownify }}</p>
+        <p>{{ . | print | markdownify }}</p>
     </div>
     {{ end }}
 
