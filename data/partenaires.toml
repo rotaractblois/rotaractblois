@@ -6,9 +6,16 @@ title = "partenaires"
     name   = "Yves de La Ferté"
     title  = "Gérant de \"La Cave de la Borde\""
     quote  = ""
-    website   = "http://cavedelaborde.com/"
+    website = "http://cavedelaborde.com/"
     logo   = "cave_de_la_borde/logo_cavedelaborde.png"
 
+[[list]]
+    avatar = "cave_de_la_borde/icone_cavedelaborde.jpg"
+    name   = "Yves de La dzqdqzd"
+    title  = "Gérant de \"La Cave de la Borde\""
+    quote  = ""
+    website = "http://cavedelaborde.com/"
+    logo   = "cave_de_la_borde/logo_cavedelaborde.png"
 #[[list]]
 #    avatar = "face-atariboy.jpg"
 #    name   = "Hank McCoy"

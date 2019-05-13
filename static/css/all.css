@@ -790,30 +790,10 @@ footer {
 }
 
 header {
-    /*border-start-end-radius: 100px;*/
-    /*border: 5px #d7ae5c inset;*/
-    /*background-position: 10px 10px, 20% 40%;*/
-    /*background-image: url(../img/logo.svg), url(../img/equipe2017_background.JPG);*/
 }
 
-/*header .logo {*/
-/*    height: 50px;*/
-/*    width: 50px;*/
-/*    float: right;*/
-/*    margin: 10px 0 0 30px;*/
-/*}*/
-
-/*header .logo path {*/
-/*    fill: rgba(0, 0, 0, 0.4);*/
-/*}*/
-
 nav {
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*max-width: 720px;*/
     margin: 20px;
-    /*list-style: none;*/
     text-transform: uppercase;
     padding: 0;
     text-align: center; /* centrer le texte */
@@ -842,54 +822,6 @@ nav ul li a {
 nav ul li a:hover {
     color: black;
 }
-
-/*header h1 {*/
-/*    text-align: center;*/
-/*    font-size: 72px;*/
-/*    font-weight: 700;*/
-/*    color: white;*/
-/*    text-transform: uppercase;*/
-/*    letter-spacing: 0.05em;*/
-/*    margin-bottom: 20px;*/
-/*    clear: both;*/
-/*    padding-top: 200px;*/
-/*}*/
-
-/*header h1 span {*/
-/*    display: inline-block;*/
-/*    padding: 0.2em 0.5em;*/
-/*    !*border: white solid 10px;*!*/
-/*}*/
-
-/*header .kicker {*/
-/*    text-align: center;*/
-/*    letter-spacing: 0.05em;*/
-/*    color: black;*/
-/*    line-height: 1;*/
-/*}*/
-
-/*header .subkicker {*/
-/*    text-align: center;*/
-/*    letter-spacing: 0.05em;*/
-/*    color: black;*/
-/*    line-height: 1;*/
-/*}*/
-
-/*@media (max-width: 640px) {*/
-/*    header {*/
-/*        background-position: 50% 20px, 50% 50%;*/
-/*    }*/
-
-/*    header nav {*/
-/*        float: none;*/
-/*        text-align: center;*/
-/*        padding-top: 90px;*/
-/*    }*/
-
-/*    !*header h1 {*!*/
-/*    !*    padding-top: 0px;*!*/
-/*    !*}*!*/
-/*}*/
 
 footer {
     background-image: url(../img/about/logo.svg), url(../img/tropical-palm-leaves-vibrant-bold-260nw-1047404287.jpg);
@@ -955,15 +887,9 @@ footer .lockup .content-wrap a:hover {
     background-image: url(../img/about/logo_rotaract_3.jpg);
     height: 300px;
     width: 500px;
-    /*-webkit-box-ordinal-group: 3;*/
-    /*-moz-box-ordinal-group: 3;*/
-    /*order: 3;*/
-    /*-ms-flex-order: 3;*/
 }
 
 .face-lockup [class^="icon-"] {
-    /*height: 100px;*/
-    /*width: 100px;*/
     background: #e5eaee;
     border-radius: 50%;
 }
@@ -1403,7 +1329,7 @@ footer .lockup .content-wrap a:hover {
 }
 
 .trombinoscope-controls {
-    position: absolute;
+    position: relative;
     top: 0px;
     right: 0px;
     bottom: 0px;
@@ -1619,7 +1545,7 @@ footer .lockup .content-wrap a:hover {
 }
 
 .partenaire-controls {
-    position: absolute;
+    position: relative;
     top: 0px;
     right: 0px;
     bottom: 0px;
