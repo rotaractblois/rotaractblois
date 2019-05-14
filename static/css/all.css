@@ -487,7 +487,7 @@ td, th {
 }
 
 /* Animation: fadeIn
- * Source: Dylan Spicker 
+ * Source: Dylan Spicker
  * Rewrite: niklasravnsborg */
 /* Animation: bottomUp
  * Source: Travis Nielson */
@@ -777,7 +777,7 @@ fieldset {
 }
 
 h3, header nav a, header .kicker, footer .lockup .content-wrap a {
-    /*font-size: 14px;*/
+    font-size: 50px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -1933,3 +1933,32 @@ form label span {
     font-style: italic;
     color: #96a2a7;
 }
+
+.devise {
+    font-family: 'Merriweather', serif;
+    float: right;
+    font-size: 25px;
+}
+
+.devise-1 {
+    line-height: 30px;
+    transform: translateY(-200px);
+    transform: translateX(-600px);
+    color: #e1c300;
+}
+
+.devise-2 {
+    line-height: 30px;
+    transform: translateY(-500px);
+    transform: translateX(-545px);
+    color: #e1c300;
+}
+
+.devise-3 {
+    font-size: 30px;
+    line-height: 100px;
+    transform: translateY(-150px);
+    transform: translateX(-550px);
+    color: #eeb600;
+}
+
