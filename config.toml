@@ -34,14 +34,15 @@ title = "Rotaract Club de Blois"
 	# But keep the original filename!
 	[params.header]
 		title = "Rotaract Club de Blois"
-		shortBio = "Association Jeunesse"
-        devise = "Vous présente son engagement, ainsi que ses projets."
 
 	# About section
 	#
 	# Replace the 'logo_rotaract.png' under 'static/img' with your own image.
 	[params.about]
 		title = "Le Rotaract Club de Blois"
+        devise1 = "Vous présente son engagement, "
+		devise2 = "ainsi que ses projets."
+		devise3 = "Le Rotaract renaît !"
 		bio = "**Le Rotaract Club de Blois** Le Rotaract est un club service parrainé par le Rotary. Cette association regroupe les jeunes de 18 à 30 ans. Le Rotaract se réunit pour mettre en place des actions de solidarités. Sa devise : "
 
 #    [[params.about.skills]]
