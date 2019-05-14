@@ -1,5 +1,6 @@
 # Section title
-title = "actions"
+title_menu = "Actions"
+title = "Nos Actions"
 
 [[projects]]
     name = "Les Rendez-vous du Chocolat"
