@@ -1,5 +1,6 @@
 # Section title
-title = "partenaires"
+title_menu = "Partenaires"
+title = "Les Partenaires"
 
 [[list]]
     avatar = "cave_de_la_borde/icone_cavedelaborde.jpg"
