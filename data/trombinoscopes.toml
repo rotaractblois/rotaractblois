@@ -9,11 +9,18 @@ title = "trombinoscope"
     logo   = "marnay_kevin/icone.png"
 
 [[list]]
-    avatar = "ferte_appoline/icone.png"
-    name   = "Appoline de La Ferté"
+    avatar = "lasnier_emilie/icone.png"
+    name   = "émilie Lasnier"
     title  = ""
     quote  = ""
-    logo   = "ferte_appoline/icone.png"
+    logo   = "lasnier_emilie/icone.png"
+
+[[list]]
+    avatar = "ferte_apolline/icone.png"
+    name   = "Apolline de La Ferté"
+    title  = ""
+    quote  = ""
+    logo   = "ferte_apolline/icone.png"
 
 [[list]]
     avatar = "ferte_blanche/icone.png"
@@ -35,13 +42,6 @@ title = "trombinoscope"
     title  = ""
     quote  = ""
     logo   = "forges_gregoire/icone.png"
-
-[[list]]
-    avatar = "lasnier_emilie/icone.png"
-    name   = "émilie Lasnier"
-    title  = ""
-    quote  = ""
-    logo   = "lasnier_emilie/icone.png"
 
 [[list]]
     avatar = "mob_ines/icone.png"
