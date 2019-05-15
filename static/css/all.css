@@ -967,7 +967,38 @@ footer .lockup .content-wrap a:hover {
     max-width: 620px;
     padding: 0 20px;
     margin: 50px auto;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.blurb-titre {
+    max-width: 620px;
+    padding: 0 20px;
+    margin: 50px auto;
+    margin-bottom: 30px;
     font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.blurb-devise {
+    max-width: 620px;
+    padding: 0 20px;
+    margin: -20px auto;
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+    color: #eeb600 !important;
+}
+
+.blurb-text {
+    max-width: 800px;
+    padding: 0 20px;
+    margin: -20px auto;
+    font-size: 20px;
     text-align: center;
     font-weight: 300;
 }

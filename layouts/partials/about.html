@@ -45,6 +45,38 @@
     </div>
     {{ end }}
 
+    {{ with .Site.Params.about.bio_titre_devise }}
+    <div class="blurb-titre">
+        <p>{{ . | print | markdownify }}</p>
+    </div>
+    {{ end }}
+    {{ with .Site.Params.about.bio_devise }}
+    <div class="blurb-devise">
+        <p>{{ . | print | markdownify }}</p>
+    </div>
+    {{ end }}
+
+    {{ with .Site.Params.about.bio_titre_ojbectifs }}
+    <div class="blurb-titre">
+        <p>{{ . | print | markdownify }}</p>
+    </div>
+    {{ end }}
+    {{ with .Site.Params.about.bio_objectifs }}
+    <div class="blurb-text">
+        <p>{{ . | print | markdownify }}</p>
+    </div>
+    {{ end }}
+
+    {{ with .Site.Params.about.bio_titre_nous_a_blois }}
+    <div class="blurb-titre">
+        <p>{{ . | print | markdownify }}</p>
+    </div>
+    {{ end }}
+    {{ with .Site.Params.about.bio_nous_a_blois }}
+    <div class="blurb-text">
+        <p>{{ . | print | markdownify }}</p>
+    </div>
+    {{ end }}
     <!--    {{ with .Site.Params.about.skills }}-->
     <!--    <div class="skill-lockup">-->
     <!--        {{ range . }}-->
