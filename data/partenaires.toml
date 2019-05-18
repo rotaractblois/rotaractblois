@@ -18,3 +18,10 @@ title = "Les Partenaires"
     website   = "http://www.rotary-club-blois-loire-et-chateaux.org/"
     logo   = "rotary_blois_loire_et_chateaux/logo_bloisloireetchateaux.png"
 
+[[list]]
+    avatar = "rotary_blois_sologne/logo_bloisloireetchateaux.png"
+    name   = "Christophe Gudin"
+    title  = "Président du club Blois Sologne"
+    quote  = ""
+    website   = "https://www.rotary-blois-sologne.info/"
+    logo   = "rotary_blois_sologne/icone_bloissologne.png"
