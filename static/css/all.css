@@ -35,7 +35,7 @@ a:active, a:hover {
     outline: 0;
 }
 
-abbr[title] {
+abbr[title_section] {
     border-bottom: 1px dotted;
 }
 
@@ -638,6 +638,14 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+h10 {
+    font-size: 26px;
+    line-height: 1.38;
+    color: #96a2a7;
+    transform: translateX(-100px);
+    font-weight: bold;
+}
+
 .gigantic {
     font-size: 110px;
     line-height: 1.09;
@@ -661,7 +669,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .big, h4 {
-    font-size: 22px;
+    font-size: 26px;
     line-height: 1.38;
 }
 
@@ -746,6 +754,12 @@ h3 {
     color: #e1c285;
     text-align: center;
     padding: 100px 0 30px;
+}
+
+h4 {
+    color: #96a2a7;
+    transform: translateX(-100px);
+    text-decoration: underline;
 }
 
 fieldset {
@@ -1189,8 +1203,8 @@ footer .lockup .content-wrap a:hover {
     cursor: pointer;
     opacity: 0.5;
     position: absolute;
-    top: -4px;
-    left: -60px;
+    top: -3px;
+    left: -150px;
 }
 
 .actions-container .actions-return path {
@@ -1961,5 +1975,18 @@ form label span {
     transform: translateY(-150px);
     transform: translateX(-550px);
     color: #eeb600;
+}
+
+.actions-left {
+    position: center;
+    transform: translateY(-125px);
+    margin: 120px;
+}
+
+.actions-right {
+    position: center;
+    transform: translateY(-125px);
+    margin: 120px;
+
 }
 
