@@ -208,9 +208,9 @@ td, th {
   Animation: bounceOut
   Source: Bounce.Js */
 .thumb-container label .thumb-overlay {
-    height: 0%;
-    width: 0%;
-    top: 0%;
+    height: 0;
+    width: 0;
+    top: 0;
     overflow: hidden;
 }
 
@@ -222,8 +222,8 @@ td, th {
 
 @-webkit-keyframes animation {
     0% {
-        height: 0%;
-        width: 0%;
+        height: 0;
+        width: 0;
         -webkit-transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
         transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     }
@@ -355,8 +355,8 @@ td, th {
 
 @keyframes animation {
     0% {
-        height: 0%;
-        width: 0%;
+        height: 0;
+        width: 0;
         -webkit-transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
         transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     }
@@ -896,12 +896,13 @@ footer .lockup .content-wrap a:hover {
 }
 
 .face-lockup .face-img {
-    border-radius: 50%;
+    border-radius: 45%;
     background-size: cover;
-    background-position: center;
+    background-position: -40px;
     background-image: url(../img/about/logo_rotaract_3.jpg);
     height: 300px;
     width: 500px;
+    margin-top: 50px;
 }
 
 .face-lockup [class^="icon-"] {
@@ -967,17 +968,44 @@ footer .lockup .content-wrap a:hover {
     max-width: 620px;
     padding: 0 20px;
     margin: 50px auto;
-    margin-bottom: 30px;
     font-size: 20px;
     text-align: center;
     font-weight: 300;
+}
+
+.blurb-main-bio {
+    max-width: 620px;
+    padding: 0 20px;
+    margin: 50px auto;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.white-block {
+    border: 1px dotted #CCCCCC;
+    padding: 0.5em;
+[ b ] display: inline;
+[ / b ]: white;
+    margin: 50px;
+    background: #d6dee4;
+
+}
+
+.blurb-secondary-bio {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    padding: 0.5em;
+[ b ] display: inline;
+[ / b ]
 }
 
 .blurb-titre {
     max-width: 620px;
     padding: 0 20px;
     margin: 50px auto;
-    margin-bottom: 30px;
     font-size: 24px;
     text-align: center;
     font-weight: 300;
@@ -986,9 +1014,8 @@ footer .lockup .content-wrap a:hover {
 .blurb-devise {
     max-width: 620px;
     padding: 0 20px;
-    margin: -20px auto;
-    margin-bottom: 30px;
-    font-size: 24px;
+    margin: 0 auto 50px auto;
+    font-size: 30px;
     text-align: center;
     font-weight: 300;
     color: #eeb600 !important;
@@ -1104,7 +1131,7 @@ footer .lockup .content-wrap a:hover {
 .actions-belt {
     width: 200%;
     position: relative;
-    left: 0%;
+    left: 0;
     -webkit-transition: all, 800ms;
     -moz-transition: all, 800ms;
     transition: all, 800ms;
@@ -1126,7 +1153,7 @@ footer .lockup .content-wrap a:hover {
 .thumb-container {
     display: block;
     max-width: 960px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .thumb-container:after {
@@ -1163,20 +1190,12 @@ footer .lockup .content-wrap a:hover {
     position: absolute;
     -webkit-box-align: center;
     -moz-box-align: center;
-    box-align: center;
     -webkit-align-items: center;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    -o-align-items: center;
     align-items: center;
     -ms-flex-align: center;
     -webkit-box-pack: center;
     -moz-box-pack: center;
-    box-pack: center;
     -webkit-justify-content: space-around;
-    -moz-justify-content: space-around;
-    -ms-justify-content: space-around;
-    -o-justify-content: space-around;
     justify-content: space-around;
     -ms-flex-pack: center;
     display: -webkit-box;
@@ -1205,7 +1224,7 @@ footer .lockup .content-wrap a:hover {
 
 .actions-container {
     max-width: 600px;
-    margin: 0px auto;
+    margin: 0 auto;
     padding: 0 15px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1248,7 +1267,7 @@ footer .lockup .content-wrap a:hover {
 
 @media (max-width: 740px) {
     .actions-container .actions-return {
-        left: 0px;
+        left: 0;
     }
 
     .actions-container h4 {
@@ -1320,7 +1339,7 @@ footer .lockup .content-wrap a:hover {
 .trombinoscopes-logos {
     position: relative;
     max-width: 750px;
-    margin: 0px auto 100px;
+    margin: 0 auto 100px;
     display: -webkit-box;
     display: -moz-box;
     display: -webkit-flex;
@@ -1329,20 +1348,12 @@ footer .lockup .content-wrap a:hover {
     display: flex;
     -webkit-box-align: end;
     -moz-box-align: end;
-    box-align: end;
     -webkit-align-items: flex-end;
-    -moz-align-items: flex-end;
-    -ms-align-items: flex-end;
-    -o-align-items: flex-end;
     align-items: flex-end;
     -ms-flex-align: end;
     -webkit-box-pack: center;
     -moz-box-pack: center;
-    box-pack: center;
     -webkit-justify-content: space-around;
-    -moz-justify-content: space-around;
-    -ms-justify-content: space-around;
-    -o-justify-content: space-around;
     justify-content: space-around;
     -ms-flex-pack: center;
 }
@@ -1376,10 +1387,10 @@ footer .lockup .content-wrap a:hover {
 
 .trombinoscope-controls {
     position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     z-index: 2;
 }
 
@@ -1430,8 +1441,6 @@ footer .lockup .content-wrap a:hover {
 @media (max-width: 750px) {
     .trombinoscopes-logos {
         -webkit-box-lines: multiple;
-        -moz-box-lines: multiple;
-        box-lines: multiple;
         -webkit-flex-wrap: wrap;
         -moz-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -1445,7 +1454,7 @@ footer .lockup .content-wrap a:hover {
     .trombinoscopes-belt .trombinoscope-unit.active-trombinoscope {
         display: block;
         position: relative;
-        margin-left: 0px;
+        margin-left: 0;
         left: auto;
     }
 
@@ -1454,9 +1463,9 @@ footer .lockup .content-wrap a:hover {
     }
 
     .trombinoscopes-belt .trombinoscope-unit.active-trombinoscope .trombinoscope-content {
-        padding: 0px 30px;
+        padding: 0 30px;
         max-width: 400px;
-        margin: 0px auto;
+        margin: 0 auto;
     }
 
     .trombinoscopes-belt .trombinoscope-unit.active-trombinoscope .trombinoscope-quote-mark {
@@ -1536,7 +1545,7 @@ footer .lockup .content-wrap a:hover {
 .partenaires-logos {
     position: relative;
     max-width: 750px;
-    margin: 0px auto 100px;
+    margin: 0 auto 100px;
     display: -webkit-box;
     display: -moz-box;
     display: -webkit-flex;
@@ -1545,20 +1554,12 @@ footer .lockup .content-wrap a:hover {
     display: flex;
     -webkit-box-align: end;
     -moz-box-align: end;
-    box-align: end;
     -webkit-align-items: flex-end;
-    -moz-align-items: flex-end;
-    -ms-align-items: flex-end;
-    -o-align-items: flex-end;
     align-items: flex-end;
     -ms-flex-align: end;
     -webkit-box-pack: center;
     -moz-box-pack: center;
-    box-pack: center;
     -webkit-justify-content: space-around;
-    -moz-justify-content: space-around;
-    -ms-justify-content: space-around;
-    -o-justify-content: space-around;
     justify-content: space-around;
     -ms-flex-pack: center;
 }
@@ -1592,10 +1593,10 @@ footer .lockup .content-wrap a:hover {
 
 .partenaire-controls {
     position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     z-index: 2;
 }
 
@@ -1635,7 +1636,7 @@ footer .lockup .content-wrap a:hover {
     width: 16px;
     border-radius: 50%;
     border: solid 2px #e5eaee;
-    margin: 0px 10px;
+    margin: 0 10px;
     cursor: pointer;
 }
 
@@ -1646,10 +1647,7 @@ footer .lockup .content-wrap a:hover {
 @media (max-width: 750px) {
     .partenaires-logos {
         -webkit-box-lines: multiple;
-        -moz-box-lines: multiple;
-        box-lines: multiple;
         -webkit-flex-wrap: wrap;
-        -moz-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
@@ -1661,7 +1659,7 @@ footer .lockup .content-wrap a:hover {
     .partenaires-belt .partenaire-unit.active-partenaire {
         display: block;
         position: relative;
-        margin-left: 0px;
+        margin-left: 0;
         left: auto;
     }
 
@@ -1670,9 +1668,9 @@ footer .lockup .content-wrap a:hover {
     }
 
     .partenaires-belt .partenaire-unit.active-partenaire .partenaire-content {
-        padding: 0px 30px;
+        padding: 0 30px;
         max-width: 400px;
-        margin: 0px auto;
+        margin: 0 auto;
     }
 
     .partenaires-belt .partenaire-unit.active-partenaire .partenaire-quote-mark {
@@ -1698,7 +1696,7 @@ footer .lockup .content-wrap a:hover {
 
 .social-links {
     max-width: 700px;
-    margin: 0px auto 50px;
+    margin: 0 auto 50px;
     display: -webkit-box;
     display: -moz-box;
     display: -webkit-flex;
@@ -1707,18 +1705,11 @@ footer .lockup .content-wrap a:hover {
     display: flex;
     -webkit-box-pack: center;
     -moz-box-pack: center;
-    box-pack: center;
     -webkit-justify-content: space-around;
-    -moz-justify-content: space-around;
-    -ms-justify-content: space-around;
-    -o-justify-content: space-around;
     justify-content: space-around;
     -ms-flex-pack: center;
     -webkit-box-lines: multiple;
-    -moz-box-lines: multiple;
-    box-lines: multiple;
     -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
@@ -1740,10 +1731,10 @@ footer .lockup .content-wrap a:hover {
     content: "";
     display: block;
     position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     border: 2px solid #c99065;
     border-radius: 50%;
     margin: -2px;
@@ -1764,9 +1755,9 @@ footer .lockup .content-wrap a:hover {
 
 .bar {
     width: 250px;
-    height: 0px;
+    height: 0;
     border-top: 4px solid #c99065;
-    margin: 0px auto 50px;
+    margin: 0 auto 50px;
 }
 
 .biglink {
@@ -1984,19 +1975,20 @@ form label span {
     font-family: 'Merriweather', serif;
     float: right;
     font-size: 25px;
+    margin-top: 80px;
 }
 
 .devise-1 {
     line-height: 30px;
     transform: translateY(-200px);
-    transform: translateX(-600px);
+    transform: translateX(-555px);
     color: #e1c300;
 }
 
 .devise-2 {
     line-height: 30px;
     transform: translateY(-500px);
-    transform: translateX(-545px);
+    transform: translateX(-500px);
     color: #e1c300;
 }
 
@@ -2004,7 +1996,7 @@ form label span {
     font-size: 30px;
     line-height: 100px;
     transform: translateY(-150px);
-    transform: translateX(-550px);
+    transform: translateX(-510px);
     color: #eeb600;
 }
 

@@ -44,12 +44,24 @@ title = "Rotaract Club de Blois"
 		devise2 = "ainsi que ses projets."
 		devise3 = "Le Rotaract renaît !"
 		bio = "Le Rotaract est un club service parrainé par le Rotary. Cette association jeunesse regroupe des jeunes entre 18 et 30 ans. Le Rotaract se réunit pour mettre en place des actions de solidarités."
-        bio_titre_devise = "Notre devise : "
+#		bio_text_redirect_mail = "Les portes du Rotaract de Blois sont ouvertes à tout le monde !!!"
+		bio_redirect_mail = "Vous êtes intéressé ? Motivé ?"
+#        bio_titre_devise = "Notre devise : "
         bio_devise = " **« L’AMITIÉ PAR LE SERVICE »** "
         bio_titre_ojbectifs = "Nos Objectifs :"
         bio_objectifs = "Les objectifs des clubs Rotaract consistent à mener des actions d’intérêt public (oeuvrer pour le bien d’autrui), d’actions internationales (développer des actions humanitaires par-delà les frontières, favoriser l’entente internationale (en accueillant par exemple des étudiants étrangers), d’actions intérieures (coordonner des actions d’utilité publique au niveau local), et d’actions professionnelles (organiser des conférences afin de faire partager à tous des expériences dans le domaine professionnel ou culturel)."
         bio_titre_nous_a_blois = "Nous, à Blois :"
         bio_nous_a_blois = "Aujourd’hui Blois est un petit groupe de jeunes professionnels et étudiants réunis pour créer en 2017-2018 une action Hors'Aract, 2019 sera la seconde émission, afin de pouvoir faire des dons à l’I.M.E. du Val de Loire et plein d'autres actions encore."
+#        Les portes du Rotaract de Blois sont ouvertes à tout le
+#        monde.
+#
+#        Vous êtes intéressé, motivé ?
+#        Venez à une de ses réunions en tant qu’invité. Et
+#        devenez par la suite, si vous le souhaitez, un membre du
+#        Rotaract.
+
+
+
 #    [[params.about.skills]]
 #    name = "Communication"
 #    value = 9
