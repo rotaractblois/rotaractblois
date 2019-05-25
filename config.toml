@@ -2,12 +2,13 @@
 baseurl = "http://www.rotaractblois.com/"
 languageCode = "fr"
 title = "Rotaract Club de Blois"
-googleAnalytics = "UA-104679908-1"
 
 [params]
 	name = "Rotaract Club de Blois"
 	description = "Association de jeunes étudiants / actifs !"
 	email = "Rotaractclubdeblois@gmail.com"
+#    gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBbpv1OlJM2fIPSYZhvDjQj_Y6p_WFeCow"
+    googleAnalytics = "UA-104679908-1"
 
 	[params.header]
 		title = "Rotaract Club de Blois"
