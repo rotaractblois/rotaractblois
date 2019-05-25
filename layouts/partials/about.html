@@ -3,48 +3,94 @@
 
     {{ with .Site.Params.about.title }}<h3 id="about-us">{{ . }}</h3>{{ end }}
 
-    <div class="devise">
-        {{ with .Site.Params.about.devise1 }}
-        <div class="devise-1">
+    <div class="white-block">
+        <div class="devise">
+            {{ with .Site.Params.about.devise1 }}
+            <div class="devise-1">
+                <p>{{ . | print | markdownify }}</p>
+            </div>
+            {{ end }}
+
+            {{ with .Site.Params.about.devise2 }}
+            <div class="devise-2">
+                <p>{{ . | print | markdownify }}</p>
+            </div>
+            {{ end }}
+
+            {{ with .Site.Params.about.devise3 }}
+            <div class="devise-3">
+                <p>{{ . | print | markdownify }}</p>
+            </div>
+            {{ end }}
+        </div>
+
+        <div class="face-lockup">
+            <div class="face-img"></div>
+            <!--        <div class="icon-pencil">-->
+            <!--            {{ partial "icons/icon-pencil.html"}}-->
+            <!--        </div>-->
+            <!--        <div class="icon-mouse">-->
+            <!--            {{ partial "icons/icon-mouse.html"}}-->
+            <!--        </div>-->
+            <!--        <div class="icon-browser">-->
+            <!--            {{ partial "icons/icon-browser.html"}}-->
+            <!--        </div>-->
+            <!--        <div class="icon-video">-->
+            <!--            {{ partial "icons/icon-video.html"}}-->
+            <!--        </div>-->
+        </div>
+
+        {{ with .Site.Params.about.bio }}
+        <div class="blurb-main-bio">
             <p>{{ . | print | markdownify }}</p>
         </div>
         {{ end }}
-
-        {{ with .Site.Params.about.devise2 }}
-        <div class="devise-2">
-            <p>{{ . | print | markdownify }}</p>
-        </div>
-        {{ end }}
-
-        {{ with .Site.Params.about.devise3 }}
-        <div class="devise-3">
+        <!--        {{ with .Site.Params.about.bio_titre_devise }}-->
+        <!--        <div class="blurb-titre">-->
+        <!--            <p>{{ . | print | markdownify }}</p>-->
+        <!--        </div>-->
+        <!--        {{ end }}-->
+        {{ with .Site.Params.about.bio_devise }}
+        <div class="blurb-devise">
             <p>{{ . | print | markdownify }}</p>
         </div>
         {{ end }}
     </div>
 
-    <div class="face-lockup">
-        <div class="face-img"></div>
-        <!--        <div class="icon-pencil">-->
-        <!--            {{ partial "icons/icon-pencil.html"}}-->
-        <!--        </div>-->
-        <!--        <div class="icon-mouse">-->
-        <!--            {{ partial "icons/icon-mouse.html"}}-->
-        <!--        </div>-->
-        <!--        <div class="icon-browser">-->
-        <!--            {{ partial "icons/icon-browser.html"}}-->
-        <!--        </div>-->
-        <!--        <div class="icon-video">-->
-        <!--            {{ partial "icons/icon-video.html"}}-->
-        <!--        </div>-->
+    <!--    {{ with .Site.Params.about.bio_text_redirect_mail }}-->
+    <!--    <div class="blurb-secondary-bio">-->
+    <!--        <p>{{ . | print | markdownify }}</p>-->
+    <!--    </div>-->
+    <!--    {{ end }}-->
+    {{ with .Site.Params.about.bio_redirect_mail }}
+    <div class="blurb-secondary-bio">
+        <p>{{ . | print | markdownify }}</p>
+        <p><a href="#contact"> Retrouvez notre formulaire de contact</a></p>
     </div>
+    {{ end }}
 
-    {{ with .Site.Params.about.bio }}
-    <div class="blurb">
+
+    {{ with .Site.Params.about.bio_titre_ojbectifs }}
+    <div class="blurb-titre">
+        <p>{{ . | print | markdownify }}</p>
+    </div>
+    {{ end }}
+    {{ with .Site.Params.about.bio_objectifs }}
+    <div class="blurb-text">
         <p>{{ . | print | markdownify }}</p>
     </div>
     {{ end }}
 
+    {{ with .Site.Params.about.bio_titre_nous_a_blois }}
+    <div class="blurb-titre">
+        <p>{{ . | print | markdownify }}</p>
+    </div>
+    {{ end }}
+    {{ with .Site.Params.about.bio_nous_a_blois }}
+    <div class="blurb-text">
+        <p>{{ . | print | markdownify }}</p>
+    </div>
+    {{ end }}
     <!--    {{ with .Site.Params.about.skills }}-->
     <!--    <div class="skill-lockup">-->
     <!--        {{ range . }}-->
