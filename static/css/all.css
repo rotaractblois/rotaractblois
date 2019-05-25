@@ -1107,7 +1107,15 @@ footer .lockup .content-wrap a:hover {
     display: block;
 }
 
-#proj-4:checked ~ .actions-belt .actions-wrap .actions-container noscript #content-proj-4 {
+#fete_des_plantes:checked ~ .actions-belt .actions-wrap .actions-container noscript #content-fete_des_plantes {
+    display: block;
+}
+
+#marche_contre_la_polio:checked ~ .actions-belt .actions-wrap .actions-container noscript #content-marche_contre_la_polio {
+    display: block;
+}
+
+#mon_sang_pour_les_autres:checked ~ .actions-belt .actions-wrap .actions-container noscript #content-mon_sang_pour_les_autres {
     display: block;
 }
 
