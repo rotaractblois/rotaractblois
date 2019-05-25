@@ -1,7 +1,3 @@
-<style type="text/css">
-    #actions {
-    }
-</style>
 <section class="alt-section section-actions">
     {{ with .Site.Data.actions.title_section }}<h3 id="actions">{{ . }}</h3>{{ end }}
 
@@ -24,7 +20,7 @@
 
                     {{ range .Site.Data.actions.action_rotaractienne }}
                     <label for="{{ .action_rotaractienne_folder }}">
-                        <div class="thumb-unit" data-folder="{{ .action_rotarienne_folder }}">
+                        <div class="thumb-unit" data-folder="{{ .action_rotaractienne_folder }}">
                             <img alt="{{ .name }}" src="img/actions/{{.action_rotaractienne_folder}}/thumb.jpg"/>
                         </div>
                         <div class="thumb-overlay">
@@ -61,17 +57,19 @@
                 <h4 class="project-title"></h4>
                 <div class="project-load"></div>
                 <noscript>
-                    {{ range .Site.Data.actions.action_rotarienne }}
-                    <div class="noscript" id="content-{{ .action_rotarienne_folder }}">
-                        <h4 class="project-title">{{ .name }}</h4>
-                    </div>
-                    {{ end }}
 
                     {{ range .Site.Data.actions.action_rotaractienne }}
                     <div class="noscript" id="content-{{ .action_rotaractienne_folder }}">
                         <h4 class="project-title">{{ .name }}</h4>
                     </div>
                     {{ end }}
+
+                    {{ range .Site.Data.actions.action_rotarienne }}
+                    <div class="noscript" id="content-{{ .action_rotarienne_folder }}">
+                        <h4 class="project-title">{{ .name }}</h4>
+                    </div>
+                    {{ end }}
+
                 </noscript>
             </div>
         </div>
