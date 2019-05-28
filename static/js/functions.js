@@ -8,6 +8,12 @@ $(function () {
     $(".biglink").fitText(2);
 
     $('textarea').autosize();
+
+    window.onload = function () {
+        // Fonction d'initialisation qui s'exécute lorsque le DOM est chargé
+        initialize_map();
+        add_map_point(47.58576, 1.333208);
+    };
 });
 
 // smoothScroll function is applied from the document ready function
@@ -219,6 +225,49 @@ function trombinoscopeStuff() {
     };
 
 })(jQuery);
+
+// On initialise la latitude et la longitude de Paris (centre de la carte)
+/* OSM & OL example code provided by https://mediarealm.com.au/ */
+var map;
+var mapLat = 47.58576;
+var mapLng = 1.333208;
+var mapDefaultZoom = 14;
+
+function initialize_map() {
+    map = new ol.Map({
+        target: "map",
+        layers: [
+            new ol.layer.Tile({
+                source: new ol.source.OSM({
+                    url: "https://a.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                })
+            })
+        ],
+        view: new ol.View({
+            center: ol.proj.fromLonLat([mapLng, mapLat]),
+            zoom: mapDefaultZoom
+        })
+    });
+}
+
+function add_map_point(lat, lng) {
+    var vectorLayer = new ol.layer.Vector({
+        source: new ol.source.Vector({
+            features: [new ol.Feature({
+                geometry: new ol.geom.Point(ol.proj.transform([parseFloat(lng), parseFloat(lat)], 'EPSG:4326', 'EPSG:3857')),
+            })]
+        }),
+        style: new ol.style.Style({
+            image: new ol.style.Icon({
+                anchor: [0.5, 0.5],
+                anchorXUnits: "fraction",
+                anchorYUnits: "fraction",
+                src: "http://maps.gstatic.com/intl/de_de/mapfiles/ms/micons/red-pushpin.png"
+            })
+        })
+    });
+    map.addLayer(vectorLayer);
+}
 
 
 (function ($) {
