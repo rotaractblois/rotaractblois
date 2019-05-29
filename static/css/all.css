@@ -797,7 +797,7 @@ h3, header nav a, header .kicker, footer nav .lockup .content-wrap a {
 }
 
 footer {
-    font-size: 25px;
+    /*font-size: 25px;*/
     background-repeat: no-repeat, no-repeat;
     background-size: 50px 50px, cover;
     background-position: 30px 50px, 50% 50%;
