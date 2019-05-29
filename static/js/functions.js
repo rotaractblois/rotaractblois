@@ -12,7 +12,6 @@ $(function () {
     window.onload = function () {
         // Fonction d'initialisation qui s'exécute lorsque le DOM est chargé
         initialize_map();
-        add_map_point(47.58576, 1.333208);
     };
 });
 
@@ -229,46 +228,31 @@ function trombinoscopeStuff() {
 // On initialise la latitude et la longitude de Paris (centre de la carte)
 /* OSM & OL example code provided by https://mediarealm.com.au/ */
 var map;
-var mapLat = 47.58576;
-var mapLng = 1.333208;
-var mapDefaultZoom = 14;
+var mapLatClipper = 47.58576;
+var mapLngClipper = 1.333208;
+var mapLatSaintDenis = 47.618788;
+var mapLngSaintDenis = 1.374290;
+var mapLatHerbault = 47.604399;
+var mapLngHerbault = 1.140211;
+var mapDefaultZoom = 12;
 
 function initialize_map() {
-    map = new ol.Map({
-        target: "map",
-        layers: [
-            new ol.layer.Tile({
-                source: new ol.source.OSM({
-                    url: "https://a.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                })
-            })
-        ],
-        view: new ol.View({
-            center: ol.proj.fromLonLat([mapLng, mapLat]),
-            zoom: mapDefaultZoom
-        })
-    });
-}
+    map = L.map('map').setView([mapLatClipper, mapLngClipper], mapDefaultZoom);
 
-function add_map_point(lat, lng) {
-    var vectorLayer = new ol.layer.Vector({
-        source: new ol.source.Vector({
-            features: [new ol.Feature({
-                geometry: new ol.geom.Point(ol.proj.transform([parseFloat(lng), parseFloat(lat)], 'EPSG:4326', 'EPSG:3857')),
-            })]
-        }),
-        style: new ol.style.Style({
-            image: new ol.style.Icon({
-                anchor: [0.5, 0.5],
-                anchorXUnits: "fraction",
-                anchorYUnits: "fraction",
-                src: "http://maps.gstatic.com/intl/de_de/mapfiles/ms/micons/red-pushpin.png"
-            })
-        })
-    });
-    map.addLayer(vectorLayer);
-}
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
 
+    L.marker([mapLatSaintDenis, mapLngSaintDenis]).addTo(map)
+        .bindPopup('Rotaract Club de Blois,<br>lieu de rassemblement secondaire')
+        .openPopup();
+    L.marker([mapLatHerbault, mapLngHerbault]).addTo(map)
+        .bindPopup('Rotaract Club de Blois,<br>lieu de rassemblement secondaire')
+        .openPopup();
+    L.marker([mapLatClipper, mapLngClipper]).addTo(map)
+        .bindPopup('Rotaract Club de Blois,<br>lieu de rassemblement principal')
+        .openPopup();
+}
 
 (function ($) {
     var
