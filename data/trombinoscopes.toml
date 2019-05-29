@@ -5,7 +5,7 @@ title = "trombinoscope"
     avatar = "marnay_kevin/icone.png"
     name   = "Kévin Marnay"
     title  = "Président"
-    quote  = "segsgs"
+    quote  = "Ingénieur, developpeur en informatique la semaine, jeune père de famille le soir, je suis très impliqué dans ma vie associative. <br> Mon ascension fût rapide, je suis rentré en tant que membre puis j'ai exercé la fonction de trésorier. Cette année est l'année du renouveau, du recrutement, de la bonne humeur et des actions."
     logo   = "marnay_kevin/icone.png"
 
 [[list]]
@@ -18,7 +18,7 @@ title = "trombinoscope"
 [[list]]
     avatar = "ferte_apolline/icone.png"
     name   = "Apolline de La Ferté"
-    title  = ""
+    title  = "Secrétaire"
     quote  = ""
     logo   = "ferte_apolline/icone.png"
 
@@ -46,7 +46,7 @@ title = "trombinoscope"
 [[list]]
     avatar = "mob_ines/icone.png"
     name   = "Inês Gomes"
-    title  = ""
+    title  = "Trésorière"
     quote  = ""
     logo   = "mob_ines/icone.png"
 
