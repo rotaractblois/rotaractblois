@@ -2020,9 +2020,14 @@ form label span {
     margin: 120px;
 }
 
+.external-website {
+    position: absolute;
+    transform: translateX(1100px);
+}
+
 pre {
     font-size: 1rem;
     margin: 0;
-    transform: translateX(450px);
 }
+
 
