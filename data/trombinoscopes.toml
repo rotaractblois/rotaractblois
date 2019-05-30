@@ -11,7 +11,7 @@ title = "trombinoscope"
 [[list]]
     avatar = "lasnier_emilie/icone.png"
     name   = "émilie Lasnier"
-    title  = ""
+    title  = "Ex-présidente"
     quote  = ""
     logo   = "lasnier_emilie/icone.png"
 
@@ -25,21 +25,21 @@ title = "trombinoscope"
 [[list]]
     avatar = "ferte_blanche/icone.png"
     name   = "Blanche de La Ferté"
-    title  = ""
+    title  = "Membre"
     quote  = ""
     logo   = "ferte_blanche/icone.png"
 
 [[list]]
     avatar = "ferte_enguerrand/icone.png"
     name   = "Enguerrand de La Ferté"
-    title  = ""
+    title  = "Membre"
     quote  = ""
     logo   = "ferte_enguerrand/icone.png"
 
 [[list]]
     avatar = "forges_gregoire/icone.png"
     name   = "Grégoire Forges"
-    title  = ""
+    title  = "Membre"
     quote  = ""
     logo   = "forges_gregoire/icone.png"
 
@@ -53,6 +53,6 @@ title = "trombinoscope"
 [[list]]
     avatar = "poirrier_clement/icone.png"
     name   = "Clément Poirrier"
-    title  = ""
+    title  = "Membre"
     quote  = ""
     logo   = "poirrier_clement/icone.png"
