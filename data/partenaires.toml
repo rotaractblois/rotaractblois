@@ -9,6 +9,9 @@ title = "Les Partenaires"
     quote  = ""
     website = "http://cavedelaborde.com/"
     logo   = "cave_de_la_borde/logo_cavedelaborde.png"
+    adresse = "7 rue du vieux Moulin"
+    ville = "41000 Saint-Denis-sur-Loire"
+    telephone = "06 58 00 39 22"
 
 [[list]]
     avatar = "rotary_blois_loire_et_chateaux/icone_bloisloireetchateaux.jpg"
@@ -17,6 +20,9 @@ title = "Les Partenaires"
     quote  = ""
     website   = "http://www.rotary-club-blois-loire-et-chateaux.org/"
     logo   = "rotary_blois_loire_et_chateaux/logo_bloisloireetchateaux.png"
+    adresse = "LA CREUSILLE 3 quai Henry Chavigny"
+    ville = "41000 Blois"
+    telephone = ""
 
 [[list]]
     avatar = "rotary_blois_sologne/logo_bloisloireetchateaux.png"
@@ -25,3 +31,18 @@ title = "Les Partenaires"
     quote  = ""
     website   = "https://www.rotary-blois-sologne.info/"
     logo   = "rotary_blois_sologne/icone_bloissologne.png"
+    adresse = "LA CREUSILLE 3 quai Henry Chavigny"
+    ville = "41000 Blois"
+    telephone = ""
+
+[[list]]
+    avatar = "rotary_blois_sologne/logo_bloisloireetchateaux.png"
+    name   = "Christophe Gudin"
+    title  = "Président du club Blois Sologne"
+    quote  = "L'Interact est un club service fondé le 28 octobre 1962 par le Rotary International Il est destiné aux 12-18 ans. <br> Ces Clubs sont parrainés par des Rotary clubs qui les épaulent en leur fournissent soutien et conseils pour réaliser des actions rotariennes dont le principe est : \"Servir d'abord\". <br> L’Interact permet aux jeunes de nouer des liens, de se faire de nouveaux amis, d’initier le développement de son leadership et d’avoir un impact localement mais aussi dans le monde."
+    website   = ""
+    logo   = "interact_blois/logo_interact.png"
+    adresse = "LA CREUSILLE 3 quai Henry Chavigny"
+    ville = "41000 Blois"
+    telephone = ""
+
