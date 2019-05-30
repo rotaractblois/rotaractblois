@@ -2018,6 +2018,11 @@ form label span {
     position: center;
     transform: translateY(-125px);
     margin: 120px;
+}
 
+pre {
+    font-size: 1rem;
+    margin: 0;
+    transform: translateX(450px);
 }
 
