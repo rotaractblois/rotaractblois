@@ -1,0 +1,46 @@
+# This references a standard debian container from the
+# Docker Hub https://registry.hub.docker.com/_/debian/
+# Read more about containers on our dev center
+# https://devcenter.wercker.com/overview-and-core-concepts/containers/
+  # You can also use services such as databases. Read more on our dev center:
+  # https://devcenter.wercker.com/administration/services/
+  # services:
+  # - postgres
+  # https://devcenter.wercker.com/administration/services/examples/postgresql/
+
+  # - mongo
+  # https://devcenter.wercker.com/administration/services/examples/mongodb/
+
+  # This is the build pipeline. Pipelines are the core of wercker
+  # Read more about pipelines on our dev center
+  # https://devcenter.wercker.com/development/pipelines/
+  #build:
+  # Steps make up the actions in your pipeline
+  # Read more about steps on our dev center:
+# https://devcenter.wercker.com/development/steps/
+box: debian
+build:
+  steps:
+    - arjen/hugo-build:
+        flags: --buildDrafts=true
+        version: 0.53
+    - script:
+        name: ls stuff
+        code: |
+          ls -haltr /pipeline/source/public
+deploy:
+  steps:
+    - script:
+        name: ls output
+        code: |
+          ls -haltr /pipeline/output
+    - script:
+        name: ls source
+        code: |
+          ls -haltr /pipeline/source
+    - install-packages:
+        packages: git ssh-client liberror-perl
+    - pahnev/gh-pages@0.3.1:
+        token: $ROTARACT_GIT_TOKEN
+        domain: rotaractclub.ig.nore.me
+basedir: public

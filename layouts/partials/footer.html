@@ -1,0 +1,21 @@
+{{ "<!-- Footer section -->" | safeHTML }}
+<footer id="footer">
+    <div class="lockup">
+        <div class="content-wrap">
+            <nav>
+                {{ with .Site.Data.trombinoscopes.title }}<a href="#trombinoscopes">{{ . }}</a>{{ end }}
+                {{ with .Site.Data.actions.title_menu }}<a href="#actions">{{ . }}</a>{{ end }}
+                {{ with .Site.Data.partenaires.title_menu }}<a href="#partenaires">{{ . }}</a>{{ end }}
+                {{ with .Site.Params.contact.title }}<a href="#contact">{{ . }}</a>{{ end }}
+            </nav>
+            <p class="copyright">{{ with .Site.Params.footer.copyright }}{{ . }}{{ else }}All content copyright
+                {{now.Format "2006"}} {{ end }}</p>
+        </div>
+        <div class="external-website">
+            <pre class="tab"><a href="https://www.rotary.org/fr" rel="external" target="_blank">www.lerotarien.org</a> </pre>
+            <pre class="tab"> <a href="https://www.rotarymag.org/" rel="external" target="_blank">www.rotary.org</a> </pre>
+            <pre class="tab"><a href="https://rotaractfrance.org/" rel="external" target="_blank">www.rotaractfrance.org</a> </pre>
+        </div>
+
+    </div>
+</footer>

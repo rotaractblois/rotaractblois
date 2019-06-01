@@ -1,0 +1,30 @@
+# Section title
+title_menu = "Actions"
+title_section = "Nos Actions"
+title_section_rotary = "Actions Solidaires : "
+title_section_rotaract = "A nous : "
+
+[[action_rotaractienne]]
+    name = "Les Rendez-vous du Chocolat"
+    action_rotaractienne_folder = "rdv_chocolat"
+
+[[action_rotaractienne]]
+    name = "Les Ventes Privées de Noël"
+    action_rotaractienne_folder = "ventes_privees_noel"
+
+[[action_rotaractienne]]
+    name = "Hors'Aract"
+    action_rotaractienne_folder = "hors_aract"
+
+[[action_rotaractienne]]
+    name = "La marche contre la Polio"
+    action_rotaractienne_folder = "marche_contre_la_polio"
+
+[[action_rotarienne]]
+    name = "Mon Sang pour les Autres"
+    action_rotarienne_folder = "mon_sang_pour_les_autres"
+
+[[action_rotarienne]]
+    name = "Fête des Plantes"
+    action_rotarienne_folder = "fete_des_plantes"
+

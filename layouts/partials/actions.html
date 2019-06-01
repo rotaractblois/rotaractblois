@@ -1,0 +1,77 @@
+<section class="alt-section section-actions">
+    {{ with .Site.Data.actions.title_section }}<h3 id="actions">{{ . }}</h3>{{ end }}
+
+
+    {{ range .Site.Data.actions.action_rotarienne }}
+    <input class="trigger" id="{{ .action_rotarienne_folder }}" name="trigger" type="radio"/>
+    {{ end }}
+
+    {{ range .Site.Data.actions.action_rotaractienne }}
+    <input class="trigger" id="{{ .action_rotaractienne_folder }}" name="trigger" type="radio"/>
+    {{ end }}
+
+    <input class="return" id="return" name="trigger" type="radio"/>
+    <div class="actions-belt">
+        <div class="thumb-wrap">
+            <div class="thumb-container">
+
+                <div class="actions-right">
+                    {{ with .Site.Data.actions.title_section_rotaract }}<h4 id="actions-rotaract">{{ . }}</h4>{{ end }}
+
+                    {{ range .Site.Data.actions.action_rotaractienne }}
+                    <label for="{{ .action_rotaractienne_folder }}">
+                        <div class="thumb-unit" data-folder="{{ .action_rotaractienne_folder }}">
+                            <img alt="{{ .name }}" src="img/actions/{{.action_rotaractienne_folder}}/thumb.jpg"/>
+                        </div>
+                        <div class="thumb-overlay">
+                            <strong>{{ .name }}</strong>
+                        </div>
+                    </label>
+                    {{ end }}
+                </div>
+
+                <br><br><br><br><br>
+
+                <div class="actions-left">
+                    {{ with .Site.Data.actions.title_section_rotary }}<h4 id="actions-rotary">{{ . }}</h4>{{ end }}
+
+                    {{ range .Site.Data.actions.action_rotarienne }}
+                    <label for="{{ .action_rotarienne_folder }}">
+                        <div class="thumb-unit" data-folder="{{ .action_rotarienne_folder }}">
+                            <img alt="{{ .name }}" src="img/actions/{{.action_rotarienne_folder}}/thumb.jpg"/>
+                        </div>
+                        <div class="thumb-overlay">
+                            <strong>{{ .name }}</strong>
+                        </div>
+                    </label>
+                    {{ end }}
+                </div>
+
+            </div>
+        </div>
+        <div class="actions-wrap">
+            <div class="actions-container">
+                <label for="return">
+                    <div class="actions-return">{{ partial "icons/icon-back.html" . }}</div>
+                </label>
+                <h4 class="project-title"></h4>
+                <div class="project-load"></div>
+                <noscript>
+
+                    {{ range .Site.Data.actions.action_rotaractienne }}
+                    <div class="noscript" id="content-{{ .action_rotaractienne_folder }}">
+                        <h4 class="project-title">{{ .name }}</h4>
+                    </div>
+                    {{ end }}
+
+                    {{ range .Site.Data.actions.action_rotarienne }}
+                    <div class="noscript" id="content-{{ .action_rotarienne_folder }}">
+                        <h4 class="project-title">{{ .name }}</h4>
+                    </div>
+                    {{ end }}
+
+                </noscript>
+            </div>
+        </div>
+    </div>
+</section>
