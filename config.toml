@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://www.rotaractblois.com/"
+baseurl = "https://rotaract-club.netlify.com/"
 languageCode = "fr"
 title = "Rotaract Club de Blois"
 
