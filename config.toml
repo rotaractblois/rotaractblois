@@ -15,9 +15,8 @@ title = "Rotaract Club de Blois"
 
 	[params.about]
 		title = "Le Rotaract Club de Blois"
-        devise1 = "Vous présente son engagement, "
-		devise2 = "ainsi que ses projets."
-		devise3 = "Le Rotaract renaît !"
+        devise1 = "Vous présente son engagement, ainsi que ses projets."
+		devise2 = "Le Rotaract renaît !"
 		bio = "Le Rotaract est un club service parrainé par le Rotary. Cette association jeunesse regroupe des jeunes entre 18 et 30 ans. Le Rotaract se réunit pour mettre en place des actions de solidarités."
 #		bio_text_redirect_mail = "Les portes du Rotaract de Blois sont ouvertes à tout le monde !!!"
 		bio_redirect_mail = "Vous êtes intéressé ? Motivé ?"
