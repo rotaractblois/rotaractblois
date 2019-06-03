@@ -4,40 +4,25 @@
     {{ with .Site.Params.about.title }}<h3 id="about-us">{{ . }}</h3>{{ end }}
 
     <div class="white-block">
-        <div class="devise">
-            {{ with .Site.Params.about.devise1 }}
-            <div class="devise-1">
-                <p>{{ . | print | markdownify }}</p>
-            </div>
-            {{ end }}
 
-            {{ with .Site.Params.about.devise2 }}
-            <div class="devise-2">
-                <p>{{ . | print | markdownify }}</p>
-            </div>
-            {{ end }}
 
-            {{ with .Site.Params.about.devise3 }}
-            <div class="devise-3">
-                <p>{{ . | print | markdownify }}</p>
+        <div class="grid-container">
+            <div class="image">
+                <img alt=" " src="../img/about/logo_rotaract_3.jpg"
+                     style="width: 75%; border-radius: 50%;"/>
             </div>
-            {{ end }}
-        </div>
+            <div class="devise">
 
-        <div class="face-lockup">
-            <div class="face-img"></div>
-            <!--        <div class="icon-pencil">-->
-            <!--            {{ partial "icons/icon-pencil.html"}}-->
-            <!--        </div>-->
-            <!--        <div class="icon-mouse">-->
-            <!--            {{ partial "icons/icon-mouse.html"}}-->
-            <!--        </div>-->
-            <!--        <div class="icon-browser">-->
-            <!--            {{ partial "icons/icon-browser.html"}}-->
-            <!--        </div>-->
-            <!--        <div class="icon-video">-->
-            <!--            {{ partial "icons/icon-video.html"}}-->
-            <!--        </div>-->
+                {{ with .Site.Params.about.devise1 }}
+                <p>{{ . | print | markdownify }}</p>
+                {{ end }}
+            </div>
+            <div class="devise1">
+                {{ with .Site.Params.about.devise2 }}
+                <p>{{ . | print | markdownify }}</p>
+                {{ end }}
+
+            </div>
         </div>
 
         {{ with .Site.Params.about.bio }}
@@ -45,11 +30,7 @@
             <p>{{ . | print | markdownify }}</p>
         </div>
         {{ end }}
-        <!--        {{ with .Site.Params.about.bio_titre_devise }}-->
-        <!--        <div class="blurb-titre">-->
-        <!--            <p>{{ . | print | markdownify }}</p>-->
-        <!--        </div>-->
-        <!--        {{ end }}-->
+
         {{ with .Site.Params.about.bio_devise }}
         <div class="blurb-devise">
             <p>{{ . | print | markdownify }}</p>
@@ -57,11 +38,6 @@
         {{ end }}
     </div>
 
-    <!--    {{ with .Site.Params.about.bio_text_redirect_mail }}-->
-    <!--    <div class="blurb-secondary-bio">-->
-    <!--        <p>{{ . | print | markdownify }}</p>-->
-    <!--    </div>-->
-    <!--    {{ end }}-->
     {{ with .Site.Params.about.bio_redirect_mail }}
     <div class="blurb-secondary-bio">
         <p>{{ . | print | markdownify }}</p>
@@ -91,18 +67,4 @@
         <p>{{ . | print | markdownify }}</p>
     </div>
     {{ end }}
-    <!--    {{ with .Site.Params.about.skills }}-->
-    <!--    <div class="skill-lockup">-->
-    <!--        {{ range . }}-->
-    <!--        <div class="skill-unit">-->
-    <!--            <div class="skill-label">{{ .name }}</div>-->
-    <!--            <div class="skill-icons skill-{{ .value }}">-->
-    <!--                {{ range (seq 10) }}-->
-    <!--                <span></span>-->
-    <!--                {{ end }}-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--        {{ end }}-->
-    <!--    </div>-->
-    <!--    {{ end }}-->
 </section>

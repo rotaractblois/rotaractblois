@@ -817,7 +817,6 @@ nav {
 nav ul {
     margin: 0;
     padding: 0;
-    margin: 0;
 }
 
 nav ul li {
@@ -874,94 +873,35 @@ footer .lockup .content-wrap a:hover {
     color: rgba(0, 0, 0, 0.7);
 }
 
-.face-lockup {
-    max-width: 16%;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 0 auto;
-    -webkit-box-align: center;
-    -moz-box-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    -ms-flex-align: center;
-    -webkit-box-pack: justify;
-    -moz-box-pack: justify;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-    -ms-flex-pack: justify;
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 0.1fr 2fr 1fr;
+    grid-template-rows: 0.2fr 1fr 0.1fr;
+    grid-template-areas: ". . . . ." ". image . devise ." "devise1 devise1 devise1 devise1 devise1";
 }
 
-.face-lockup .face-img {
-    border-radius: 45%;
-    background-size: cover;
-    background-position: -40px;
-    background-image: url(../img/about/logo_rotaract_3.jpg);
-    height: 300px;
-    width: 500px;
-    margin-top: 50px;
+.devise {
+    grid-area: devise;
+    text-align: center;
+    color: #eeb600;
+    font-size: 1.75vw;
+    align-self: center;
 }
 
-.face-lockup [class^="icon-"] {
-    background: #e5eaee;
-    border-radius: 50%;
+.image {
+    grid-area: image;
 }
 
-.face-lockup [class^="icon-"] path {
-    fill: #c99065;
-}
-
-/*.face-lockup [class^="icon-"].icon-pencil {*/
-/*    -webkit-box-ordinal-group: 1;*/
-/*    -moz-box-ordinal-group: 1;*/
-/*    order: 1;*/
-/*    -ms-flex-order: 1;*/
-/*}*/
-
-/*.face-lockup [class^="icon-"].icon-mouse {*/
-/*    -webkit-box-ordinal-group: 2;*/
-/*    -moz-box-ordinal-group: 2;*/
-/*    order: 2;*/
-/*    -ms-flex-order: 2;*/
-/*}*/
-
-/*.face-lockup [class^="icon-"].icon-browser {*/
-/*    -webkit-box-ordinal-group: 4;*/
-/*    -moz-box-ordinal-group: 4;*/
-/*    order: 4;*/
-/*    -ms-flex-order: 4;*/
-/*}*/
-
-/*.face-lockup [class^="icon-"].icon-video {*/
-/*    -webkit-box-ordinal-group: 5;*/
-/*    -moz-box-ordinal-group: 5;*/
-/*    order: 5;*/
-/*    -ms-flex-order: 5;*/
-/*}*/
-
-@media screen and (max-width: 650px) {
-    .face-lockup {
-        display: block;
-        text-align: center;
-    }
-
-    .face-lockup div {
-        display: inline-block;
-    }
-
-    .face-lockup .face-img {
-        display: block;
-        background-position: center center;
-        background-repeat: no-repeat;
-        margin: 0 auto 30px;
-    }
-
-    .face-lockup [class^="icon-"] {
-        margin: 10px 9%;
-    }
+.devise1 {
+    grid-area: devise1;
+    word-break: break-word;
+    color: #eeb600;
+    margin-top: 20px;
+    max-width: 620px;
+    padding: 0 20px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
 }
 
 .blurb {
@@ -1554,7 +1494,7 @@ footer .lockup .content-wrap a:hover {
     color: #999;
 }
 
-.partenaires-belt .partenaire-unit .partenaire-face  .partenaire-telephone {
+.partenaires-belt .partenaire-unit .partenaire-face .partenaire-telephone {
     font-style: normal;
     font-size: 15px;
     color: #999;
@@ -1995,35 +1935,6 @@ form label span {
 .content h3 {
     font-style: italic;
     color: #96a2a7;
-}
-
-.devise {
-    font-family: 'Merriweather', serif;
-    float: right;
-    font-size: 25px;
-    margin-top: 80px;
-}
-
-.devise-1 {
-    line-height: 30px;
-    transform: translateY(-200px);
-    transform: translateX(-555px);
-    color: #e1c300;
-}
-
-.devise-2 {
-    line-height: 30px;
-    transform: translateY(-500px);
-    transform: translateX(-500px);
-    color: #e1c300;
-}
-
-.devise-3 {
-    font-size: 30px;
-    line-height: 100px;
-    transform: translateY(-150px);
-    transform: translateX(-510px);
-    color: #eeb600;
 }
 
 .actions-left {
