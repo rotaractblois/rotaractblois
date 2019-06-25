@@ -1214,7 +1214,7 @@ footer .lockup .content-wrap a:hover {
 
 @media all and (max-width: 10000px) {
     .actions-container h4 {
-        margin-left: 60px;
+        margin-left: 40px;
     }
 }
 
@@ -1857,8 +1857,7 @@ form label span {
     right: 20px;
     background-color: black;
     color: white;
-    padding: 15px;
-    border-radius: 100px;
+    padding: 5px;
     text-align: center;
 }
 
