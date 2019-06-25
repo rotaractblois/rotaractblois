@@ -758,7 +758,7 @@ h3 {
 
 h4 {
     color: #96a2a7;
-    transform: translateX(-100px);
+    font-size-adjust: 0.4;
     text-decoration: underline;
 }
 
@@ -901,7 +901,7 @@ footer .lockup .content-wrap a:hover {
     margin-top: 20px;
     max-width: 620px;
     padding: 0 20px;
-    font-size: 30px;
+    font-size-adjust: 1;
     text-align: center;
     font-weight: 300;
 }
@@ -1200,11 +1200,10 @@ footer .lockup .content-wrap a:hover {
 .actions-container .actions-return {
     height: 40px;
     width: 40px;
+    font-size-adjust: 0.5;
     cursor: pointer;
     opacity: 0.5;
     position: absolute;
-    top: -3px;
-    left: -150px;
 }
 
 .actions-container .actions-return path {
