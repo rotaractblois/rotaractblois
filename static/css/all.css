@@ -639,7 +639,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h10 {
-    font-size: 26px;
+    font-size-adjust: 0.5;
     line-height: 1.38;
     color: #96a2a7;
     transform: translateX(-100px);
@@ -885,12 +885,13 @@ footer .lockup .content-wrap a:hover {
     grid-area: devise;
     text-align: center;
     color: #eeb600;
-    font-size: 1.75vw;
+    font-size-adjust: 0.5;
     align-self: center;
 }
 
 .image {
     grid-area: image;
+    object-fit: scale-down;
 }
 
 .devise1 {
@@ -1854,13 +1855,14 @@ form label span {
 /* Bottom right text */
 .text-block {
     position: absolute;
-    bottom: 20px;
+    bottom: 1px;
     right: 20px;
     background-color: black;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 100px;
+    text-align: center;
 }
 
 
@@ -1912,7 +1914,7 @@ form label span {
     width: 77%;
     margin: 50px auto;
     font-family: 'Merriweather', serif;
-    font-size: 17px;
+    font-size-adjust: 1;
     color: #6c767a;
     line-height: 1.9;
 }
