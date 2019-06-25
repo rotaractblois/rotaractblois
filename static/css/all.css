@@ -854,6 +854,7 @@ footer .lockup:after {
 footer .lockup .content-wrap {
     float: left;
     margin-left: 80px;
+    font-size: 1rem;
 }
 
 footer .lockup .content-wrap .copyright {
@@ -1948,15 +1949,4 @@ form label span {
     transform: translateY(-125px);
     margin: 120px;
 }
-
-.external-website {
-    position: absolute;
-    transform: translateX(1100px);
-}
-
-pre {
-    font-size: 1rem;
-    margin: 0;
-}
-
 
