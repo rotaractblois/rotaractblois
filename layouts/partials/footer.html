@@ -8,13 +8,16 @@
                 {{ with .Site.Data.partenaires.title_menu }}<a href="#partenaires">{{ . }}</a>{{ end }}
                 {{ with .Site.Params.contact.title }}<a href="#contact">{{ . }}</a>{{ end }}
             </nav>
+
+            <a class=socials href="https://www.rotary.org/fr" rel="external" target="_blank">www.lerotarien.org</a>
+            <a href="https://www.rotarymag.org/" rel="external" target="_blank">www.rotary.org</a>
+            <a href="https://rotaractfrance.org/" rel="external" target="_blank">www.rotaractfrance.org</a>
+
+            <br><br>
+
             <p class="copyright">{{ with .Site.Params.footer.copyright }}{{ . }}{{ else }}All content copyright
                 {{now.Format "2006"}} {{ end }}</p>
-        </div>
-        <div class="external-website">
-            <pre class="tab"><a href="https://www.rotary.org/fr" rel="external" target="_blank">www.lerotarien.org</a> </pre>
-            <pre class="tab"> <a href="https://www.rotarymag.org/" rel="external" target="_blank">www.rotary.org</a> </pre>
-            <pre class="tab"><a href="https://rotaractfrance.org/" rel="external" target="_blank">www.rotaractfrance.org</a> </pre>
+
         </div>
 
     </div>
