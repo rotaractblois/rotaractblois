@@ -1,7 +1,7 @@
 {{ "<!-- Form section -->" | safeHTML }}
 <section>
     {{ with .Site.Params.form.title }}<h3 id="form-title">{{ . }}</h3>{{ end }}
-    <form action="//formspree.io/{{ with .Site.Params.email }}{{ . }}{{ end }}" method="POST">
+    <form action="mailto:{{ with .Site.Params.email }}{{ . }}{{ end }}" enctype="text/plain" method="POST">
         <fieldset class="contact-info-group">
             {{ with .Site.Params.form.name }}<label><span>{{ . }}</span>{{ end }}
             <input name="name" type="text">
