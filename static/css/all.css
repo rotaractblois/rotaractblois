@@ -639,7 +639,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h10 {
-    font-size-adjust: 0.5;
+    font-size-adjust: 1;
     line-height: 1.38;
     color: #96a2a7;
     transform: translateX(-100px);
@@ -885,7 +885,7 @@ footer .lockup .content-wrap a:hover {
     grid-area: devise;
     text-align: center;
     color: #eeb600;
-    font-size-adjust: 0.5;
+    font-size-adjust: 1;
     align-self: center;
 }
 
@@ -1200,7 +1200,7 @@ footer .lockup .content-wrap a:hover {
 .actions-container .actions-return {
     height: 40px;
     width: 40px;
-    font-size-adjust: 0.5;
+    font-size-adjust: 1;
     cursor: pointer;
     opacity: 0.5;
     position: absolute;
@@ -1215,10 +1215,6 @@ footer .lockup .content-wrap a:hover {
 }
 
 @media (max-width: 740px) {
-    .actions-container .actions-return {
-        left: 0;
-    }
-
     .actions-container h4 {
         margin-left: 60px;
     }
