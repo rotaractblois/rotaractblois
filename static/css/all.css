@@ -754,9 +754,7 @@ h3 {
     color: #e1c285;
     text-align: center;
     padding: 100px 0 30px;
-    overflow: hidden;
-    white-space: nowrap; /* Don't forget this one */
-    text-overflow: ellipsis;
+    word-break: break-all;
 }
 
 h4 {
