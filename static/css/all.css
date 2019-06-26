@@ -754,6 +754,7 @@ h3 {
     color: #e1c285;
     text-align: center;
     padding: 100px 0 30px;
+    word-break: break-all;
 }
 
 h4 {
