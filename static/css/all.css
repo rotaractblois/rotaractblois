@@ -754,7 +754,7 @@ h3 {
     color: #e1c285;
     text-align: center;
     padding: 100px 0 30px;
-    word-break: break-all;
+    word-break: keep-all;
 }
 
 h4 {
@@ -767,12 +767,6 @@ fieldset {
     padding: 0;
     margin: 0;
     border: none;
-}
-
-@media screen and (max-width: 480px) {
-    h3 {
-        padding: 50px 0 50px;
-    }
 }
 
 .alt-section-nav {
@@ -863,6 +857,7 @@ footer .lockup .content-wrap .copyright {
     text-transform: uppercase;
     font-size: 12px;
     color: rgba(0, 0, 0, 0.4);
+    word-break: keep-all;
 }
 
 footer .lockup .content-wrap a {
@@ -879,7 +874,7 @@ footer .lockup .content-wrap a:hover {
     display: grid;
     grid-template-columns: 1fr 4fr 0.1fr 2fr 1fr;
     grid-template-rows: 0.2fr 1fr 0.1fr;
-    grid-template-areas: ". . . . ." ". image . devise ." "devise1 devise1 devise1 devise1 devise1";
+    grid-template-areas: ". . . . ." ". image . devise ." ". devise1 devise1 devise1 devise1";
 }
 
 .devise {
@@ -914,6 +909,24 @@ footer .lockup .content-wrap a:hover {
     font-size: 20px;
     text-align: center;
     font-weight: 300;
+}
+
+
+@media screen and (max-width: 500px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 0.1fr;
+        grid-template-areas: "image" "devise" "devise1";
+    }
+
+    .image {
+        text-align: center;
+    }
+
+    .devise {
+        font-size-adjust: 0.8;
+    }
 }
 
 .blurb-main-bio {
@@ -1947,5 +1960,20 @@ form label span {
     position: center;
     transform: translateY(-125px);
     margin: 120px;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        font-size-adjust: 0.4;
+    }
+
+    h10 {
+        font-size-adjust: 0.5;
+    }
+
+    .image {
+        grid-area: image;
+        object-fit: inherit;
+    }
 }
 
