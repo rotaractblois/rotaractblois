@@ -1988,3 +1988,25 @@ form label span {
     }
 }
 
+.read-more.is-inline,
+.read-more.is-inline p,
+.read-more.is-inline + span {
+    display: inline;
+}
+
+.read-more.is-inline + span {
+    margin-left: 0.25em
+}
+
+.read-more.is-inline.is-expanded + span {
+    display: inline-block;
+    margin-left: 0;
+}
+
+article {
+    padding: 1em 0;
+    max-width: 37em;
+    margin: 2em auto;
+    line-height: 1.4;
+}
+
