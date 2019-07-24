@@ -36,7 +36,9 @@
             </figure>
             <div class="partenaire-content">
                 <div class="partenaire-quote-mark">{{ partial "icons/icon-quote-mark.html" . }}</div>
-                {{ .quote | print | markdownify }}
+                <div class="read-more js-read-more" data-rm-words="25">
+                    {{ .quote | print | markdownify }}
+                </div>
             </div>
         </div>
         {{ end }}
