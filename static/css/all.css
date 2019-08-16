@@ -883,7 +883,8 @@ footer .lockup .content-wrap a:hover {
     color: #eeb600;
     font-size-adjust: 1;
     align-self: center;
-    line-height: initial;
+    /*line-height: initial;*/
+    font-size: 30px;
 }
 
 .image {
@@ -896,9 +897,9 @@ footer .lockup .content-wrap a:hover {
     word-break: break-word;
     color: #eeb600;
     margin-top: 20px;
-    max-width: 620px;
+    max-width: 700px;
     padding: 0 20px;
-    font-size-adjust: 1;
+    font-size: 45px;
     text-align: center;
 }
 
@@ -916,7 +917,7 @@ footer .lockup .content-wrap a:hover {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 0.1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: "image" "devise" "devise1";
     }
 
@@ -926,6 +927,11 @@ footer .lockup .content-wrap a:hover {
 
     .devise {
         font-size-adjust: 0.8;
+    }
+
+    .devise1 {
+        font-size-adjust: 0.8;
+        text-align: center;
     }
 }
 
@@ -1304,10 +1310,10 @@ footer .lockup .content-wrap a:hover {
     margin: 0 auto 100px;
     display: -webkit-box;
     display: -moz-box;
-    display: -webkit-flex;
+    /*display: -webkit-flex;*/
     display: -moz-flex;
     display: -ms-flexbox;
-    display: flex;
+    /*display: flex;*/
     -webkit-box-align: end;
     -moz-box-align: end;
     -webkit-align-items: flex-end;
@@ -1322,9 +1328,10 @@ footer .lockup .content-wrap a:hover {
 
 .trombinoscopes-logos .trombinoscope-logo {
     cursor: pointer;
-    margin: 0 20px 20px;
+    margin: 0 10px ;
+    /*20px;*/
     padding-bottom: 20px;
-    border-bottom: 4px solid transparent;
+    /*border-bottom: 4px solid transparent;*/
     opacity: 0.5;
 }
 
@@ -1400,7 +1407,7 @@ footer .lockup .content-wrap a:hover {
     border-color: #c99065;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
     .trombinoscopes-logos {
         -webkit-box-lines: multiple;
         -webkit-flex-wrap: wrap;
@@ -1528,10 +1535,10 @@ footer .lockup .content-wrap a:hover {
     margin: 0 auto 100px;
     display: -webkit-box;
     display: -moz-box;
-    display: -webkit-flex;
+    /*display: -webkit-flex;*/
     display: -moz-flex;
     display: -ms-flexbox;
-    display: flex;
+    /*display: flex;*/
     -webkit-box-align: end;
     -moz-box-align: end;
     -webkit-align-items: flex-end;
@@ -1624,7 +1631,7 @@ footer .lockup .content-wrap a:hover {
     border-color: #c99065;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
     .partenaires-logos {
         -webkit-box-lines: multiple;
         -webkit-flex-wrap: wrap;
@@ -1962,7 +1969,7 @@ form label span {
     margin: 120px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
     body {
         font-size-adjust: 0.4;
     }
@@ -1971,9 +1978,35 @@ form label span {
         font-size-adjust: 0.5;
     }
 
+    h3, header nav a, header .kicker, footer nav .lockup .content-wrap a {
+        font-size: 30px
+    }
+
     .image {
         grid-area: image;
         object-fit: inherit;
     }
+}
+
+.read-more.is-inline,
+.read-more.is-inline p,
+.read-more.is-inline + span {
+    display: inline;
+}
+
+.read-more.is-inline + span {
+    margin-left: 0.25em
+}
+
+.read-more.is-inline.is-expanded + span {
+    display: inline-block;
+    margin-left: 0;
+}
+
+article {
+    padding: 1em 0;
+    max-width: 37em;
+    margin: 2em auto;
+    line-height: 1.4;
 }
 

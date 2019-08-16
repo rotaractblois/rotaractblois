@@ -44,25 +44,33 @@
     {{ end }}
 
 
-    {{ with .Site.Params.about.bio_titre_ojbectifs }}
-    <div class="blurb-titre">
-        <p>{{ . | print | markdownify }}</p>
-    </div>
-    {{ end }}
-    {{ with .Site.Params.about.bio_objectifs }}
-    <div class="blurb-text">
-        <p>{{ . | print | markdownify }}</p>
-    </div>
-    {{ end }}
+    <article>
+        <div class="read-more js-read-more" data-rm-words="25">
+            {{ with .Site.Params.about.bio_titre_ojbectifs }}
+            <div class="blurb-titre">
+                <p>{{ . | print | markdownify }}</p>
+            </div>
+            {{ end }}
+            {{ with .Site.Params.about.bio_objectifs }}
+            <div class="blurb-text">
+                <p>{{ . | print | markdownify }}</p>
+            </div>
+            {{ end }}
+        </div>
+    </article>
 
-    {{ with .Site.Params.about.bio_titre_nous_a_blois }}
-    <div class="blurb-titre">
-        <p>{{ . | print | markdownify }}</p>
-    </div>
-    {{ end }}
-    {{ with .Site.Params.about.bio_nous_a_blois }}
-    <div class="blurb-text">
-        <p>{{ . | print | markdownify }}</p>
-    </div>
-    {{ end }}
+    <article>
+        <div class="read-more js-read-more" data-rm-words="25">
+            {{ with .Site.Params.about.bio_titre_nous_a_blois }}
+            <div class="blurb-titre">
+                <ptrombinoscope-content>{{ . | print | markdownify }}</ptrombinoscope-content>
+            </div>
+            {{ end }}
+            {{ with .Site.Params.about.bio_nous_a_blois }}
+            <div class="blurb-text">
+                <p>{{ . | print | markdownify }}</p>
+            </div>
+            {{ end }}
+        </div>
+    </article>
 </section>
