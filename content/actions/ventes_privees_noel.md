@@ -7,3 +7,19 @@ Ces bénéfices sont reversés au Sapin de l'Espoir pour la lutte contre le canc
 
 Lors de cette action, nous avons mis en place depuis 2016, un catalogue de produits pour Noël est mis à disposition
   des clubs Rotary afin qu'ils puissent commander nos produits. Ces produits peuvent être des chocolats, du vin... 
+
+<details close>
+<summary><h2>2016</h2></summary>
+</details> 
+
+<details close>
+<summary><h2>2017</h2></summary>
+</details> 
+
+<details close>
+<summary><h2>2018</h2></summary>
+</details> 
+
+<details close>
+<summary><h2>2019</h2></summary>
+</details> 

@@ -17,43 +17,47 @@ Bill Gates a accompagné cette annonce de la déclaration suivante :
 C'est pourquoi, notre jeune club, le Rotaract club de Blois, avons organisé deux sessions en 2015 et 2016 afin de récolter 
 quelques précieux euro.
 
-## 2015
+<details close>
+<summary><h2>2016</h2></summary>
 
-Notre jeune club de Blois entre en jeu dans la lutte contre la Polio. Pratiquement éradiquée mais pas totalement (2 pays 
-résistent encore et toujours) nous avons décidé de créer une marche solidaire sur les rives du Bord de Loire. 
-Une marche de quelques kilomètres débutant sur le parking du Parc des Mées (pas très loins du centre equestre de Blois) 
-et reliant une ferme dans la commune bordant la ville, Saint-Denis-sur-Loire.
+  Deuxième édition de notre marche solidaire pour la lutte contre la Polio. Un an après notre première édition, nous avons 
+  tenté une nouvelle fois de rassembler un maximum de personnes à notre cause. La lutte progresse, la maladie régresse. 
+  Ce n'était pas le moment de lâcher, bien au contraire.
+  
+  Dans ce sens, nous avons médiatisé notre action en favorisant l'utilisation des réseaux sociaux tel que Facebook. 
+  Un évènement fut créé et partagé par de nombreux amis et connaissances. Nous avons également dépêché la presse locale :
+  La nouvelle république.
+  
+  Toujours plus nombreuses, les personnes étaient au rendez-vous sur le parking de départ ! Tous équipés et prêts pour renouveler 
+  l'experience de l'année précédente. 
+  
+  « La lutte continue ! » : scande un camarade. 
+  
+  Au fil de la marche, le peloton soudé de départ s'étire, la fatigue se fait sentir. La bonne humeur est présente et se 
+  fait sentir.
+  De petits groupes arrivèrent au compte goûte. A la ferme, des gâteries et une collation bien méritées attendaient 
+  nos participants. Le discours de notre présidente très éloquente.
+  
+  A ce jour, 99% des cas ont disparus, plus de 2 milliards d’enfants ont été vaccinés contre la poliomyélite dans 122 
+  pays. Pour seulement 50 centimes d'Euro, un enfant peut être protégé à vie. La réussite est proche ! Le Rotary 
+  International va donner un coup d'accélérateur supplémentaire de 43,6 millions de dollars pour en finir avec la 
+  maladie d’ici à 2018. Il est convenu que chaque dollar versé au Rotary International en faveur de cette éradication 
+  sera triplé par la Fondation Bill & Melinda Gates.
+  A ce jour, il reste deux derniers pays endémiques : l’Afghanistan et le Pakistan . Il convient d’éviter que ces foyers 
+  ne « contaminent » les pays dans lesquels la maladie à été déjà éradiquée. Les résultats sont fragiles, aussi nous 
+  restons sur le qui-vive et nous continuons à vacciner des millions d'enfants. Ainsi une épidémie de polio reprend en 
+  2017 en Syrie (22 cas) et au Congo (5 cas).
+  
+  Pour conclure : Tant qu’il restera un seul cas au monde, tous les enfants de la planète demeureront menacés. 
 
-## 2016
+</details>
 
-Deuxième édition de notre marche solidaire pour la lutte contre la Polio. Un an après notre première édition, nous avons 
-tenté une nouvelle fois de rassembler un maximum de personnes à notre cause. La lutte progresse, la maladie régresse. 
-Ce n'était pas le moment de lâcher, bien au contraire.
+<details close>
+<summary><h2>2015</h2></summary>
 
-Dans ce sens, nous avons médiatisé notre action en favorisant l'utilisation des réseaux sociaux tel que Facebook. 
-Un évènement fut créé et partagé par de nombreux amis et connaissances. Nous avons également dépêché la presse locale :
-La nouvelle république.
+  Notre jeune club de Blois entre en jeu dans la lutte contre la Polio. Pratiquement éradiquée mais pas totalement (2 pays 
+  résistent encore et toujours) nous avons décidé de créer une marche solidaire sur les rives du Bord de Loire. 
+  Une marche de quelques kilomètres débutant sur le parking du Parc des Mées (pas très loins du centre equestre de Blois) 
+  et reliant une ferme dans la commune bordant la ville, Saint-Denis-sur-Loire.
 
-Toujours plus nombreuses, les personnes étaient au rendez-vous sur le parking de départ ! Tous équipés et prêts pour renouveler 
-l'experience de l'année précédente. 
-
-« La lutte continue ! » : scande un camarade. 
-
-Au fil de la marche, le peloton soudé de départ s'étire, la fatigue se fait sentir. La bonne humeur est présente et se 
-fait sentir.
-De petits groupes arrivèrent au compte goûte. A la ferme, des gâteries et une collation bien méritées attendaient 
-nos participants. Le discours de notre présidente très éloquente.
-
-
-
-A ce jour, 99% des cas ont disparus, plus de 2 milliards d’enfants ont été vaccinés contre la poliomyélite dans 122 
-pays. Pour seulement 50 centimes d'Euro, un enfant peut être protégé à vie. La réussite est proche ! Le Rotary 
-International va donner un coup d'accélérateur supplémentaire de 43,6 millions de dollars pour en finir avec la 
-maladie d’ici à 2018. Il est convenu que chaque dollar versé au Rotary International en faveur de cette éradication 
-sera triplé par la Fondation Bill & Melinda Gates.
-A ce jour, il reste deux derniers pays endémiques : l’Afghanistan et le Pakistan . Il convient d’éviter que ces foyers 
-ne « contaminent » les pays dans lesquels la maladie à été déjà éradiquée. Les résultats sont fragiles, aussi nous 
-restons sur le qui-vive et nous continuons à vacciner des millions d'enfants. Ainsi une épidémie de polio reprend en 
-2017 en Syrie (22 cas) et au Congo (5 cas).
-
-Pour conclure : Tant qu’il restera un seul cas au monde, tous les enfants de la planète demeureront menacés. 
+</details>

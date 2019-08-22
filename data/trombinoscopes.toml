@@ -11,14 +11,14 @@ title = "trombinoscope"
 [[list]]
     avatar = "lasnier_emilie/icone.png"
     name   = "émilie Lasnier"
-    title  = "Ex-présidente"
+    title  = "Membre"
     quote  = ""
     logo   = "lasnier_emilie/icone.png"
 
 [[list]]
     avatar = "ferte_apolline/icone.png"
     name   = "Apolline de La Ferté"
-    title  = "Secrétaire"
+    title  = "Vice-présidente"
     quote  = ""
     logo   = "ferte_apolline/icone.png"
 
@@ -53,6 +53,6 @@ title = "trombinoscope"
 [[list]]
     avatar = "poirrier_clement/icone.png"
     name   = "Clément Poirrier"
-    title  = "Membre"
+    title  = "Secrétaire"
     quote  = ""
     logo   = "poirrier_clement/icone.png"
