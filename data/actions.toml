@@ -28,3 +28,6 @@ title_section_rotaract = "A nous : "
     name = "Fête des Plantes"
     action_rotarienne_folder = "fete_des_plantes"
 
+[[action_rotarienne]]
+    name = "Banque Alimentaire"
+    action_rotarienne_folder = "la_banque_alimentaire"
