@@ -1,6 +1,5 @@
-
 <details close>
-<summary><h2>2018</h2></summary>
+<summary><h2>**2018**</h2></summary>
 
    La salle de don n’a pas désempli, au château, 225 personnes se sont présentées, hier, pour donner leur sang. © Photo NR 
    

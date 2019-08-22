@@ -12,13 +12,14 @@ maladie. C’est l’initiative de santé publique la plus importante dans le mo
 Melinda par le biais de leur Fondation accordent 100 millions de dollars pour soutenir cette action mondiale. 
 Bill Gates a accompagné cette annonce de la déclaration suivante : 
 
-##### « L’élimination totale du virus est un combat difficile et continuera à l’être dans les années à venir. Le Rotary, en particulier, m’a motivé à m’impliquer d’avantage dans la lutte pour l’éradication de la polio ».
+> ##### « L’élimination totale du virus est un combat difficile et continuera à l’être dans les années à venir. Le 
+> ##### Rotary, en particulier, m’a motivé à m’impliquer d’avantage dans la lutte pour l’éradication de la polio ».
 
 C'est pourquoi, notre jeune club, le Rotaract club de Blois, avons organisé deux sessions en 2015 et 2016 afin de récolter 
 quelques précieux euro.
 
 <details close>
-<summary><h2>2016</h2></summary>
+<summary><h2>**2016**</h2></summary>
 
   Deuxième édition de notre marche solidaire pour la lutte contre la Polio. Un an après notre première édition, nous avons 
   tenté une nouvelle fois de rassembler un maximum de personnes à notre cause. La lutte progresse, la maladie régresse. 
@@ -31,7 +32,7 @@ quelques précieux euro.
   Toujours plus nombreuses, les personnes étaient au rendez-vous sur le parking de départ ! Tous équipés et prêts pour renouveler 
   l'experience de l'année précédente. 
   
-  « La lutte continue ! » : scande un camarade. 
+  > « La lutte continue ! » : scande un camarade. 
   
   Au fil de la marche, le peloton soudé de départ s'étire, la fatigue se fait sentir. La bonne humeur est présente et se 
   fait sentir.
@@ -53,7 +54,7 @@ quelques précieux euro.
 </details>
 
 <details close>
-<summary><h2>2015</h2></summary>
+<summary><h2>**2015**</h2></summary>
 
   Notre jeune club de Blois entre en jeu dans la lutte contre la Polio. Pratiquement éradiquée mais pas totalement (2 pays 
   résistent encore et toujours) nous avons décidé de créer une marche solidaire sur les rives du Bord de Loire. 

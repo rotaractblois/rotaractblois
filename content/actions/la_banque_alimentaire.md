@@ -1,15 +1,15 @@
 ![La banque Alimentaire](img/actions/la_banque_alimentaire/thumb.jpg)
 
 <details close>
-<summary><h2>2019</h2></summary>
+<summary><h2>**2019**</h2></summary>
 </details>  
 
 <details close>
-<summary><h2>2018</h2></summary>
+<summary><h2>**2018**</h2></summary>
 </details>
 
 <details close>
-<summary><h2>2017</h2></summary>
+<summary><h2>**2017**</h2></summary>
   
   Cette année, notre Club Rotaract est venu prêter main forte à la Banque alimentaire du Loir-et-Cher pour la collecte 
   des denrées alimentaires des vendredi 27 et samedi 28 novembre 2017. 

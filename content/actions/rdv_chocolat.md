@@ -4,15 +4,15 @@ Lors de cette action, nous avons mis en place depuis 2016, un stand de fondues a
   Cette fondue est faite de fruits recouverts d'un coulis de chocolat chaud.
 
 <details close>
-<summary><h2>2019</h2></summary>
+<summary><h2>**2019**</h2></summary>
 </details>  
 
 <details close>
-<summary><h2>2018</h2></summary>
+<summary><h2>**2018**</h2></summary>
 </details>  
 
 <details close>
-<summary><h2>2017</h2></summary>
+<summary><h2>**2017**</h2></summary>
 
   ![Les Rendez-vous du Chocolat](img/actions/rdv_chocolat/2017/photo-1.jpg)
 
@@ -20,11 +20,11 @@ Lors de cette action, nous avons mis en place depuis 2016, un stand de fondues a
 
 
 <details close>
-<summary><h2>2016</h2></summary>
+<summary><h2>**2016**</h2></summary>
 </details> 
  
 <details close>
-<summary><h2>2015</h2></summary>
+<summary><h2>**2015**</h2></summary>
 
   ![Les Rendez-vous du Chocolat](img/actions/rdv_chocolat/2015/photo-1.jpg)
   ![Les Rendez-vous du Chocolat](img/actions/rdv_chocolat/2015/photo-2.jpg)
