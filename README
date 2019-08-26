@@ -1,3 +1,5 @@
+image nos action : 600 * 480 * 24
+
 .section-trombinoscopes {
     position: relative;
 }
