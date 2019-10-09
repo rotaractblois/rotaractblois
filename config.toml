@@ -2,6 +2,10 @@
 baseurl = "https://rotaract-blois.netlify.com/"
 languageCode = "fr"
 title = "Rotaract Club de Blois"
+enableRobotsTXT = true
+canonifyURLs = true
+[permalinks]
+    post = "/blog/:title/"
 
 [params]
 	name = "Rotaract Club de Blois"
