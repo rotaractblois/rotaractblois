@@ -1,17 +1,15 @@
-
+<!--Display team after years of the rotaract club-->
 <section class="section-before-about">
+    {{ range $i, $e := .Site.Params.sliderTeamPictures.pictures }}
     <div class="container">
-        <img class="mySlides w3-animate-fading" src="img/equipe2017_background.JPG" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="img/equipe_background/equipe{{ $e }}_background.JPG"
+             style="width:100%">
         <div class="myText w3-animate-fading text-block">
             <div>
-                <h10>Equipe Rotaractienne 2018</h10>
+                <h10>Equipe Rotaractienne {{ $e }}</h10>
             </div>
         </div>
-        <img class="mySlides w3-animate-fading" src="img/equipe2015_background.JPG" style="width:100%">
-        <div class="myText w3-animate-fading text-block">
-            <div>
-                <h10>Equipe Rotaractienne 2015</h10>
-            </div>
-        </div>
+
     </div>
+    {{ end }}
 </section>
